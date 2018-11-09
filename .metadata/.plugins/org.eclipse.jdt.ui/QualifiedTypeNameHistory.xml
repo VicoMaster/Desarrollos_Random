@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
 <fullyQualifiedTypeName name="javax.swing.ScrollPaneConstants"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
-<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
 <fullyQualifiedTypeName name="controlador.Peticiones"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
@@ -15,4 +14,5 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="vista.Gui_User"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 </qualifiedTypeNameHistroy>
