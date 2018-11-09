@@ -58,6 +58,7 @@ public class Pantalla_Inicial extends JFrame {
 	public void creacion_Botones() {
 		ImageIcon fondo_btn = new ImageIcon("C:\\Users\\Administrador.DEV-CODE1\\Documents\\ProyectosJavaEclipse\\Recuerdame\\recursos\\boton_azul_low.png");
 		btn_crear.setIcon(fondo_btn);
+		btn_crear.setSize(3,6);
 		panel_norte.add(btn_crear);
 	}
 	
