@@ -2,6 +2,7 @@ package vista;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.io.File;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -27,7 +28,7 @@ public class Pantalla_Inicial extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 750, 450);
 		panel_principal = new JPanel();
-		panel_principal.setBorder(new EmptyBorder(15, 15, 15, 15));
+		panel_principal.setBorder(new EmptyBorder(7, 7, 7, 7));
 		panel_principal.setLayout(new BorderLayout(0, 0));
 		setLocationRelativeTo(null);
 		setContentPane(panel_principal);
@@ -35,7 +36,7 @@ public class Pantalla_Inicial extends JFrame {
 		creacion_Botones();
 	}
 	
-	//Diseño de Paneles
+	//Disenno de Paneles
 	public void creacion_Paneles() {
 		//Panel Norte
 		panel_norte.setBackground(new Color(100, 149, 237));
@@ -54,10 +55,14 @@ public class Pantalla_Inicial extends JFrame {
 		panel_principal.add(panel_sur, BorderLayout.SOUTH);
 	}
 	
-	//Diseño de Botones
+	//Disenno de Botones
 	public void creacion_Botones() {
-		ImageIcon fondo_btn = new ImageIcon("C:\\Users\\Administrador.DEV-CODE1\\Documents\\ProyectosJavaEclipse\\Recuerdame\\recursos\\boton_azul_low.png");
+		File ruta_boton = new File("recursos//boton_azul_alpha.png");
+		ImageIcon fondo_btn = new ImageIcon(ruta_boton.getAbsolutePath());
 		btn_crear.setIcon(fondo_btn);
+		btn_crear.setBackground(new Color(100, 149, 237));
+		btn_crear.setFocusable(false);
+		btn_crear.setBorder(null);
 		panel_norte.add(btn_crear);
 	}
 	
