@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\Administrador.DEV-CODE1\Documents\ProyectosJavaEclipse" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="Gui_User - CleanTemporales" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
