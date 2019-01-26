@@ -17,6 +17,8 @@ import java.awt.Toolkit;
 
 import javax.swing.DefaultFocusManager;
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
+
 import java.awt.FlowLayout;
 import java.awt.KeyboardFocusManager;
 import java.awt.SystemColor;
@@ -53,7 +55,7 @@ public class VistaBusqueda  {
 		frameprincipal.setIconImage(Toolkit.getDefaultToolkit().getImage(rutalogo.getAbsoluteFile().toString()));
 		frameprincipal.setTitle("Busqueda");
 		frameprincipal.setResizable(false);
-		frameprincipal.setBounds(100, 100, 720, 100);
+		frameprincipal.setBounds(100, 100, 780, 100);
 		frameprincipal.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frameprincipal.setLocationRelativeTo(null);
 		
@@ -63,8 +65,11 @@ public class VistaBusqueda  {
 		textarchivo.setColumns(12);
 		campourl = new JTextField();
 		campourl.setEditable(false);
-		campourl.setText("C:\\mio");
+		campourl.setText("C:\\");
 		campourl.setColumns(23);
+		JButton btn_ruta = new JButton();
+		btn_ruta.setText("...");
+		btn_ruta.setFocusable(false);
 		txtextension = new JTextField();
 		txtextension.setText(".a2m");
 		txtextension.setEditable(false);
@@ -73,6 +78,7 @@ public class VistaBusqueda  {
 		txtpalabra.setEditable(false);
 		txtpalabra.setText("Script");
 		panelnorte.add(campourl);
+		panelnorte.add(btn_ruta);
 		panelnorte.add(textarchivo);
 		panelnorte.add(txtextension);
 		panelnorte.add(txtpalabra);
@@ -89,7 +95,7 @@ public class VistaBusqueda  {
 		scroll = new JScrollPane(); 
 		arealeida.setEditable(false);
 		arealeida.setRows(20);
-		arealeida.setColumns(60);
+		arealeida.setColumns(67);
 		scroll.setViewportView(arealeida);
 		panelcentral.add(scroll);
 		panelcentral.setFocusable(false);
@@ -192,7 +198,7 @@ public class VistaBusqueda  {
 								}
 								if(click == 0) {
 									click = 1;
-									frameprincipal.setSize(720, 465);
+									frameprincipal.setSize(780, 465);
 									frameprincipal.setLocationRelativeTo(null);
 								}
 								if(error == "") {
@@ -273,12 +279,12 @@ public class VistaBusqueda  {
 				} else if (e.getClickCount() == 1 && !e.isConsumed()) {
 					if(click == 0) {
 						click = 1;
-						frameprincipal.setSize(720, 465);
+						frameprincipal.setSize(780, 465);
 						frameprincipal.setLocationRelativeTo(null);
 						textarchivo.grabFocus();
 					}else {
 						click = 0;
-						frameprincipal.setSize(720, 100);
+						frameprincipal.setSize(780, 100);
 						frameprincipal.setLocationRelativeTo(null);
 						textarchivo.grabFocus();
 					}
@@ -287,6 +293,47 @@ public class VistaBusqueda  {
 				}
 			}
 		});
+		
+		//Boton BTN_RUTA
+		btn_ruta.addMouseListener(new java.awt.event.MouseAdapter() {
+			String error = "";
+			@Override
+			public void mouseClicked(java.awt.event.MouseEvent e) {
+				System.out.println("BOTON RUTA");
+				if (e.getClickCount() >= 2 && !e.isConsumed()) {
+					e.consume();
+					error = "MULTI CLICK";
+					arealeida.setText("Error: #Click: " + e.getClickCount());
+				} else if (e.getClickCount() == 1 && !e.isConsumed()) {
+					JFileChooser examinar=new JFileChooser();
+					int seleccion = examinar.showOpenDialog(frameprincipal);
+					System.out.println(seleccion);
+					if (seleccion == 0) {
+						File ruta_seleccionada;
+						ruta_seleccionada = examinar.getSelectedFile();
+						String formato = dividirRuta(ruta_seleccionada.getAbsolutePath());
+						String[] div_rutaseleccionada = ruta_seleccionada.getAbsolutePath().split("\\\\");
+						String ruta_carpeta = "";
+						int max_div = div_rutaseleccionada.length - 1;
+						for (int i = 0; i < div_rutaseleccionada.length; i++) {
+							if (i != max_div){
+								ruta_carpeta += div_rutaseleccionada[i]+"\\";
+							} 
+						}
+						campourl.setText(ruta_carpeta);
+						String[] div_formato = formato.split("\\.");
+						textarchivo.setText(div_formato[0]);
+						txtextension.setText("."+div_formato[1]);
+						ruta_seleccionada = null;
+					}
+					examinar = null;
+					System.gc();
+				} else {
+					arealeida.setText("Error: " + error);
+				}
+			}
+		});
+		
 		
 		//Boton Relacion
 		btrelacion.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -308,6 +355,19 @@ public class VistaBusqueda  {
 				}
 			}
 		});
+	}
+	
+	//Metodo para dividir ruta 
+	public String dividirRuta(String ruta) {
+		String formato = "";
+		try {
+			String[] filtra_ruta = ruta.split("\\\\");
+			int final_div = filtra_ruta.length - 1;
+			formato = filtra_ruta[final_div];
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return formato;
 	}
 	
 	//Metodo Run para ControlHilos
