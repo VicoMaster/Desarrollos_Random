@@ -89,7 +89,7 @@ public class Pantalla_Inicial extends JFrame {
 		}
 		//Uso cada componente
 		for (int i = 0; i < caja_textos.length; i++) {
-			caja_textos[i].setText("Contraseña Aleatoria: "+(i+1));
+			caja_textos[i].setText("ContraseÃ±a Aleatoria: "+(i+1));
 			caja_textos[i].setEditable(false);
 			pn_cen1.add(caja_textos[i]);
 		}
@@ -127,7 +127,7 @@ public class Pantalla_Inicial extends JFrame {
 	//Disenno de AreaText
 	public void area_PassRandom() {
 		area_passrandom.setFont(new Font("Tw Cen MT", Font.PLAIN, 18));
-		area_passrandom.setText("\n        AQUI SE CREARA LA CONTRASEÑA");
+		area_passrandom.setText("\n        AQUI SE CREARA LA CONTRASEÃ‘A");
 		area_passrandom.setBorder(new LineBorder(new Color(51, 102, 255)));
 		area_passrandom.setPreferredSize(new Dimension(350,63));
 		area_passrandom.setEditable(false);
