@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename field &apos;lb_passrandom&apos; in &apos;vista.Pantalla_Inicial&apos; to &apos;area_passrandom&apos;&#x0D;&#x0A;- Original project: &apos;Recuerdame&apos;&#x0D;&#x0A;- Original element: &apos;vista.Pantalla_Inicial.lb_passrandom&apos;&#x0D;&#x0A;- Renamed element: &apos;vista.Pantalla_Inicial.area_passrandom&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;lb_passrandom&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;vista{Pantalla_Inicial.java[Pantalla_Inicial^lb_passrandom" name="area_passrandom" references="true" setter="false" stamp="1542666837441" textual="false" version="1.0"/>
-</session>
