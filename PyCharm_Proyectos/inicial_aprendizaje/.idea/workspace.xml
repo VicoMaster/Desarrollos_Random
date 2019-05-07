@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6974f257-109b-45ef-8698-b77165c253ab" name="Default Changelist" comment="Subida Proyecto Python">
-      <change afterPath="$PROJECT_DIR$/../../.directory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.directory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vicomaster.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inicial_aprendizaje.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02OperadoresYprelaciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03TiposDeDatos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04CadenasExamples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05Condiciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Funciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07Listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10Input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Excepciones_ManejoErrores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Calculadora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13EstructurasDatos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14Slices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15Diccionarios.py" afterDir="false" />
-    </list>
+    <list default="true" id="6974f257-109b-45ef-8698-b77165c253ab" name="Default Changelist" comment="Subida Proyecto Python" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/12Calculadora.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="80">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -290,6 +270,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.24237919" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24460967" />
@@ -411,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12Calculadora.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="80">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
       </provider>
     </entry>
