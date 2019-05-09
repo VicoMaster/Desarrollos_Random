@@ -48,10 +48,28 @@ dias_semana.update({"Sabadito": "Seis", "Dominguito": "Siete"})
 print(dias_semana)
 
 # Iterar, recorrer Diccionarios
+print("\nIteraciones en Diccionarios\n")
+colores_frutas = {"Manzana": "Roja", "Pera": "Verde", "Moras": "Morado", "Naranja": "Naranja"}
+for frutas in colores_frutas:  # Puede utilizarse el metodo .key para optener la key
+    print("Las frutas son: ", frutas)
 
+for colores in colores_frutas.values():
+    print("Los colores son: ", colores)
+
+for tuplas in colores_frutas.items():
+    print("Tuplas o Clave:Valor: ", tuplas)
 
 # Creando Diccionarios por Comprension
 print("Creando Diccionarios por Comprension")
 # Sintaxis: dict(<clave>, <valor> for <elemento> in <iterable>)
 nuevo_dict = dict((x, x * x) for x in (1, 2, 3, 4))
 print(nuevo_dict)  # Se crea un Diccionario donde las claves son los iterables y los valores son sus cuadrados
+
+# Creando un Diccionario a partir de Listas con Bucle For
+# Se crean usando Listas de Tuplas
+lista = [('hola', 'python'), ('Una', 'Tupla')]  # Lista
+diccionario = {k: v for k, v in lista}  # Creando diccionario a partir de lista
+print(diccionario)
+print(type(lista[0]))
+for k, v in lista:  # Por cada elemento dentro de la tupla una letra sera asignada en el for
+    print("Esto es V:", v)

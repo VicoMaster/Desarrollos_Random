@@ -49,7 +49,13 @@ print("DEL")
 print(catalogo)
 del catalogo
 
-print(catalogo)
+# print(catalogo) ya eliminado
 print(deportes)
 del deportes[2]
 # Las Cadenas "Strings" son Inmutables por lo tanto no se puede borrar un Caracter de una cadena con Del.
+
+# insert
+lista_insert = ["uno", "dos", "tres", "cuatro"]
+print(lista_insert)
+lista_insert.insert(0, "Inicio")
+print(lista_insert)
