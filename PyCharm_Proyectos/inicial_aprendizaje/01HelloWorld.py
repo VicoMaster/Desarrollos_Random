@@ -3,3 +3,6 @@ def primerafuncion(nombre):
 
 
 primerafuncion("Andres")
+
+#  Informacion de Funciones para algun objeto help("str")
+help('str')
