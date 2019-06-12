@@ -35,7 +35,7 @@ def comprar_mas_cosas(cosas):
 
 
 def main():
-    seleccion = 10
+    seleccion = 10  # Numero de Papas a Seleccionar y Comprar
     papas = seleccionar_papa(seleccion)
     valor_papas = pagar_papas(seleccionar_papa(seleccion))
     print("Se compraron ", papas, " papas Con valor de: ", valor_papas)
