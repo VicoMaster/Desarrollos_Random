@@ -21,7 +21,17 @@ def hacer_resta(numeros):
 
 def hacer_division(numeros):
     if numeros[1] != 0:
+        pass
+    else:
         respuesta = numeros[0] / numeros[1]
+        respuesta = "NO PUEDE DIVIDIR ENTRE 0"
+    return respuesta
+
+
+#  Esto devuelve una Division redondeada a Entero
+def hacer_division_compuesta(numeros):
+    if numeros[1] != 0:
+        respuesta = numeros[0] // numeros[1]
     else:
         respuesta = "NO PUEDE DIVIDIR ENTRE 0"
     return respuesta
@@ -37,9 +47,9 @@ def menu_caluladora():
     print("*** Welcome to Calculadora ***")
     while not finaliza:
         print("Seleccione la Operacion: ")
-        print("1. Sumar\n2. Restar\n3. Multiplicar\n4. Dividir\n5. Salir")
+        print("1. Sumar\n2. Restar\n3. Multiplicar\n4. Dividir\n5. División Redondeada\n6. Salir")
         eleccion = input("Digite su Opción: ")
-        operaciones = {'1': "suma", '2': "resta", '3': "mult", '4': "div", '5': "salir"}
+        operaciones = {'1': "suma", '2': "resta", '3': "mult", '4': "div", '5': 'divcom', '6': "salir"}
         try:
             operacion = operaciones[eleccion]
             finaliza = True
@@ -51,7 +61,14 @@ def menu_caluladora():
 
 def calculadora():
     opcion = menu_caluladora()
-    funciones = {'suma': hacer_suma, 'resta': hacer_resta, 'mult': hacer_multi, 'div': hacer_division, 'salir': "exit"}
+    funciones = {
+        'suma': hacer_suma,
+        'resta': hacer_resta,
+        'mult': hacer_multi,
+        'div': hacer_division,
+        'salir': "exit",
+        'divcom': hacer_division_compuesta
+    }
     funcion = funciones[opcion]
     if funcion != "exit":
         respuesta = funciones[opcion](pedir_numeros())

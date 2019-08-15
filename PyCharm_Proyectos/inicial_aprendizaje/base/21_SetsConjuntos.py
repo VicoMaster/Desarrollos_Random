@@ -18,7 +18,7 @@ OPERACIONES:
     * A - B -> A.diferencia (B) : Devuelve la diferencia establecida de A y B (los elementos incluidos en A ,
                                                                                             pero no incluidos en B ).
     * A - = B -> A.difference_update (B) : Elimina todos los elementos de B del conjunto A
-    * A ^ B  -> A.symmetric_difference (B) : Devuelve la diferencia simétrica de los conjuntos A y B
+    * A ^ B  -> A.symmetric_di fference (B) : Devuelve la diferencia simétrica de los conjuntos A y B
                                     (los elementos que pertenecen a A o B , pero no a ambos conjuntos simultáneamente).
     * A ^ = B -> A.symmetric_difference_update (B) : Escribe en A la diferencia simétrica de los conjuntos A y B
     * A <= B  -> A.issubset (B) : Devuelve true si A es un subconjunto de B
