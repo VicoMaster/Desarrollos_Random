@@ -21,9 +21,8 @@ def hacer_resta(numeros):
 
 def hacer_division(numeros):
     if numeros[1] != 0:
-        pass
-    else:
         respuesta = numeros[0] / numeros[1]
+    else:
         respuesta = "NO PUEDE DIVIDIR ENTRE 0"
     return respuesta
 

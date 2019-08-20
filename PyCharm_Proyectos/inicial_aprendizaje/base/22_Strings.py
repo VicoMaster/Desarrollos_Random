@@ -22,3 +22,7 @@ print("Concatenando Decimal " + str(num_dec))  # Cast
 usuario = input("USUARIO: ")
 contrasenna = input("CONTRASEÑA: ")
 print("LO QUE EL USUARIO INGRESO FUE USUARIO: %s CONTRASEÑA: %s" % (usuario, contrasenna))
+
+
+#  Repetir caracteres
+print(10*'-')
