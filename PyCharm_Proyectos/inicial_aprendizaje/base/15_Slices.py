@@ -20,3 +20,12 @@ print(numeros)
 # Recuponemos esa misma parte de la Lista
 numeros[4:5] = [5, 6, 7, 8]
 print(numeros)
+
+"""
+ 0 1 2 3 4 5
+ P Y T H O N
+-6-5-4-3-2-1
+
+lista[x:y:z]
+x = Start y= stop z = step
+"""

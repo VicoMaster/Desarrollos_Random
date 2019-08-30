@@ -2,6 +2,8 @@
 # Lo que hace a una Tupla una Tupla es la Coma, no el parentesis
 # Una tupla representa lo que compone un objeto,persona o cosa.
 # Es un conjunto ordenado e inmutable de elementos del mismo o diferente tipo.
+# Si el elemento de la tupla es modificable internamente "listas" pueden ser modificadas como tal.
+
 
 tupla_1 = (1, 2, 3, 4)
 print(tupla_1)
@@ -13,7 +15,7 @@ tupla_4 = (1, 2, 3, 4), (5, 6, 7, 8)
 print(tupla_4)
 
 # Crear una lista de tuplas
-lista_tupla = [("Andres", "Rivera"), ("Alejandra", "Rojas")]
+lista_tupla = [("Andres", "Rivera"), ("Maria", "Rojas")]
 # Recorrer tupla y seleccionar datos para crear nombre y apellido
 for e, i in lista_tupla:
     print("Nombre Completo: ", e, i)

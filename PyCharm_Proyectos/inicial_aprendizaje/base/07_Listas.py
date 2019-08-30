@@ -59,3 +59,29 @@ lista_insert = ["uno", "dos", "tres", "cuatro"]
 print(lista_insert)
 lista_insert.insert(0, "Inicio")
 print(lista_insert)
+
+# Indice -1 es = al ultimo elemento de la lista
+
+# Enlazar listas
+lista = [1, 2, 3, 4, 5]
+print(lista)
+lista += [6, 7, 8, 9]
+print(lista)
+# Numeros consecutivos
+lista += 5*[0]
+print(lista)
+
+# Exclusión de elementos
+lista = ["aaa", "bbb", "ccc", "ddd", "eee", "fff"]
+print(lista)
+del(lista[::2])
+print(lista)
+# Ordenado
+lista.reverse()
+# lista.sort()
+print(lista)
+# Listar la cantidad presente de un String
+lista += ["Ana", "Ana"]
+print(lista.count("Ana"))
+print(lista)
+print(lista.index("Ana"))
