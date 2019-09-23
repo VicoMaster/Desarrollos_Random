@@ -25,3 +25,26 @@ while ejecutar:
         print("Ingreso un Caracter Invalido, Ingrese Nuevamente...")
     else:
         print("*** Finalizo ***")
+
+
+a, b, c = 10, 25, 66
+x = int(input("DIGITE UN NUMERO: "))
+
+try:
+    print(x in a)
+except TypeError as inst:
+    print("OCURRIO UN ERROR INESPERADO 001 "+str(inst.args))
+
+# ...    raise Exception('carne', 'huevos')
+# ... except Exception as inst:
+# ...    print(type(inst))    # la instancia de excepción
+# ...    print(inst.args)     # argumentos guardados en .args
+# ...    print(inst)          # __str__ permite imprimir args directamente,
+# ...                         # pero puede ser cambiado en subclases de la exc
+# ...    x, y = inst          # desempacar argumentos
+
+
+try:
+    raise Exception("UYyy pero que jesto!!!")
+except Exception as error:
+    print("OCURRIO UN ERROR ESPERADO: "+str(error.args))

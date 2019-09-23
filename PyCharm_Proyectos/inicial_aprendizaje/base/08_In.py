@@ -12,3 +12,11 @@ if '1' not in Palabras:
 lista_palabras = list(Palabras)
 if 'c' in lista_palabras:
     print("Su letra esta en la Lista")
+
+a, b, c = 10, 25, 66
+x = int(input("DIGITE UN NUMERO: "))
+
+try:
+    print(x in a)
+except TypeError as inst:
+    print("OCURRIO UN ERROR INESPERADO 001 "+str(inst.args))
