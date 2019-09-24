@@ -85,3 +85,9 @@ lista += ["Ana", "Ana"]
 print(lista.count("Ana"))
 print(lista)
 print(lista.index("Ana"))
+
+palabra = "Esta es palabra"
+lista = palabra.replace("pa", "ÑE")
+print(lista)
+lista = palabra.replace(" ", "*")
+print(lista)

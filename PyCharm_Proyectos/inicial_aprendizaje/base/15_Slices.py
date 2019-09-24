@@ -21,6 +21,12 @@ print(numeros)
 numeros[4:5] = [5, 6, 7, 8]
 print(numeros)
 
+palabra = "Esta es palabra"
+lista = palabra.split(" ")
+print(lista)
+lista = lista[0]+" "+lista[2]
+print(lista)
+
 """
  0 1 2 3 4 5
  P Y T H O N
