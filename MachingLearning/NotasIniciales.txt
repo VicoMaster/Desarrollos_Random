@@ -1,18 +1,14 @@
-LLNPY
-15_20190930160650.xls
-15_20190930162403.xls
+QUE ES MACHINE LEARNING
 
-LLNIS05
-15_20190930162622.xls
+"Se dice que un programa de computadora aprende de la experiencia E con respecto a alguna tarea T y alguna medida de rendimiento P, si su rendimiento en T, medido por P, mejora con la experiencia E."
 
-LLNISXX
-15_20190930163734.xls
+Ejemplo: Un programa de tu Email observa que correos marcas como Spam y que no, y basado en esto aprende a mejorar el filtro de spam. Cual es la tarea T en este escenario?.
 
-LLOGA
-15_20190930164041.xls
+A: Clasificar emails como spam o no spam
+B: Ver tus etiquetas de correos de spam o no spam
+C: El numero o fraccion de emails correctamente clasificados como spam o no spam
+D: Ninguna de las anteriores - Esto no es machine learning
 
-Consulta para Decodificar Registros LLNISXX:
-SELECT XLLNISXX_TIMESTAMP, XLLNISXX_KEY, CAST(XLLNISXX_KEY AS VARCHAR (35) FOR SBCS DATA) AS KEY
-FROM gcbp.llnisXX
-WHERE XLLNISXX_KEY LIKE '%F050864%'
-FETCH FIRST 100 ROWS ONLY
+Respuesta: A, Casificar Emails como spam o no spam es la tarea a realizar "T" la Experiencia "E"es observar y el numero de Correctas clasificaciones es el rendimiento (P)
+T = task E = Experience P = performance
+
