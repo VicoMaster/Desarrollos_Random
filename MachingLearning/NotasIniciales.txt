@@ -1,4 +1,4 @@
-QUE ES MACHINE LEARNING
+* QUE ES MACHINE LEARNING
 
 "Se dice que un programa de computadora aprende de la experiencia E con respecto a alguna tarea T y alguna medida de rendimiento P, si su rendimiento en T, medido por P, mejora con la experiencia E."
 
@@ -11,4 +11,15 @@ D: Ninguna de las anteriores - Esto no es machine learning
 
 Respuesta: A, Casificar Emails como spam o no spam es la tarea a realizar "T" la Experiencia "E"es observar y el numero de Correctas clasificaciones es el rendimiento (P)
 T = task E = Experience P = performance
+
+
+* APRENDIZAJE SUPERVISADO:
+Es el aprendizaje de la maquina mediante datos reales y correctos dados y se utiliza para 
+
+* PROBLEMAS DE REGRESION:
+Es predecir una salida de valor continuo
+* PROBLEMAS DE CLASIFICACION:
+Es predecir una salida de valor discreto
+* Valor discreto: Es una variable que no puede tomar algunos valores dentro de un minimo conjunto numerable,quiere decir que no acepta cualquier valor,unicamente los que pertenecen al conjunto.
+* Valor continuo "Valor real":Una variable continua toma valores a lo largo de un continuo, esto es, en todo un intervalo de valores. Un atributo esencial de una variable continua es que a diferencia de una variable discreta nunca puede ser medida con exactitud. El valor observado depende de gran medida de la presicion de los intrumentos de medicion.
 
