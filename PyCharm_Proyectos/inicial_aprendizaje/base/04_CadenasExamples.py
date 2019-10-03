@@ -25,3 +25,5 @@ print(len(mensaje4))
 mensaje8 = "HOLA MUNDO"
 mensaje8a = mensaje8.replace("L", "pizza")
 print(mensaje8a)
+# Funciones en Strings
+print("esta palabra sera mayuscula".upper())
