@@ -73,3 +73,10 @@ print(diccionario)
 print(type(lista[0]))
 for k, v in lista:  # Por cada elemento dentro de la tupla una letra sera asignada en el for
     print("Esto es V:", v)
+
+# Las llaves pueden ser cualquier tipo de datos NO iterable
+"""
+fromkeys()
+dic = dict.fromkeys(['a','b','c','d'],1)
+dic →  {‘a’ : 1, ’b’ : 1, ‘c’ : 1 , ‘d’ : 1}
+"""
