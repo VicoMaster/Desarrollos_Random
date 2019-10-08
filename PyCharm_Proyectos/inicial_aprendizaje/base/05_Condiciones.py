@@ -36,3 +36,47 @@ not in -> (no contenido)
 boleano = False
 if not boleano:
     print("Esto es Correctisimo")
+
+
+# Parametros DEFAULT con IF corto o Ternary Operator
+def login(usuario="admin", contrasenna="admin123", edads=30, sexo=True):
+    print("El usuario es: %s" % usuario)
+    print("La contraseña es: %s" % contrasenna)
+    print("Con edad: %s" % edads)
+    print("Del Sexo: "+{True: "Masculino", False: "Femenino"}[sexo])
+
+
+login()
+"""
+* Simple Method to use ternary operator:
+
+# Program to demonstrate conditional operator 
+a, b = 10, 20
+  
+# Copy value of a in min if a < b else copy b 
+min = a if a < b else b 
+
+* Direct Method by using tuples, Dictionary and lambda
+# Python program to demonstrate ternary operator 
+a, b = 10, 20
+  
+# Use tuple for selecting an item 
+print( (b, a) [a < b] ) 
+  
+# Use Dictionary for selecting an item 
+print({True: a, False: b} [a < b]) 
+  
+# lamda is more efficient than above two methods 
+# because in lambda  we are assure that 
+# only one expression will be evaluated unlike in 
+# tuple and Dictionary 
+print((lambda: b, lambda: a)[a < b]()) 
+
+Ternary operator can be written as nested if-else:
+
+# Python program to demonstrate nested ternary operator 
+a, b = 10, 20
+  
+print ("Both a and b are equal" if a == b else "a is greater than b"
+        if a > b else "b is greater than a") 
+"""
