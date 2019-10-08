@@ -1,3 +1,4 @@
+# coding: utf-8
 # Tipos de Datos en Python
 string = "Hola Mundo"
 print("Esto es una Cadena: ", type(string))

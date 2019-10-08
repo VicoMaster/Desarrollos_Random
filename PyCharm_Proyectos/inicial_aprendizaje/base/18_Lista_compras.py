@@ -1,3 +1,4 @@
+# coding: utf-8
 # Lista de Compras
 # AndresR.Dev
 

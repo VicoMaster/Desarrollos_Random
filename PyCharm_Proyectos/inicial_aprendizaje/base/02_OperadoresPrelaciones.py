@@ -1,3 +1,4 @@
+# coding: utf-8
 # Operaciones
 num_0 = 13
 num_1 = 4

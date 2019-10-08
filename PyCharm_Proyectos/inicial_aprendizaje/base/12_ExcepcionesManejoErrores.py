@@ -1,3 +1,4 @@
+# coding: utf-8
 # Ejemplo con Manejo de Errores
 def pedir_numeros():
     numero_uno = int(input("Digite el Primer Numero: "))

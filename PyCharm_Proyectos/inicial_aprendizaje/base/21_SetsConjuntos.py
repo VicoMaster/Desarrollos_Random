@@ -27,6 +27,8 @@ OPERACIONES:
     * A> B : Equivalente a A >= B and A != B
 """
 
+# coding: utf-8
+
 # Recordaos reglas de Conjuntos "Matematica Basica".
 # Las reglas de Operaciones  de conjuntos permitiran tener una variedad de comprobaciones en la informacion obtenida.
 

@@ -1,3 +1,4 @@
+# coding: utf-8
 # Diferentes Condiciones en Python
 edad = 25
 if (edad >= 18) and (edad < 60):

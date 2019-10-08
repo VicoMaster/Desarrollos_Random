@@ -1,4 +1,6 @@
 # Uso del modulo random
+# coding: utf-8
+
 """
 randint()
 randrange()

@@ -1,3 +1,4 @@
+# coding: utf-8
 # Diccionarios
 """
 A los Diccionarios no les importa el orden

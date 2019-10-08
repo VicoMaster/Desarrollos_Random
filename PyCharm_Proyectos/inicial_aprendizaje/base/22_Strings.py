@@ -4,6 +4,7 @@ Concatenado Para Strings
 Marcadores por tipo de Datos: %i %f %s
 
 """
+# coding: utf-8
 
 num_int = 5
 num_dec = 7.3

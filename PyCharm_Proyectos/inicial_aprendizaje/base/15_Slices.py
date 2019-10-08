@@ -1,3 +1,4 @@
+# coding: utf-8
 # Rebanadas Slices
 numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 seleccion = numeros[0:6]  # El punto de llegada es Exclusivo.

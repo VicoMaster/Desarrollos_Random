@@ -1,3 +1,4 @@
+# coding: utf-8
 # Ejemplo con Manejo de Errores y Diccionarios para llamar Funciones y Correlacion de Opcion/Operacion
 # AndresR.Dev
 

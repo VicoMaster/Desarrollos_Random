@@ -1,3 +1,4 @@
+# coding: utf-8
 # Ejemplos de usos de Funciones
 
 
@@ -27,6 +28,7 @@ FUNCIONES VARIADICAS
 *args = lista
 **kwargs = diccionario <- argumentos nombrados "clave y valor "
 Argumentos posicionales y nominales
+Primero los posicionales luego los nominales como regla del lenguaje.
 """
 print("***** SEPARADOR ******")
 
@@ -47,3 +49,15 @@ def lista_diccionario(*args, **kwargs):
 lista_de_argumentos(1, 2, 3, 4, 5)
 lista_de_argumentos_asociativos(a=1, b=1, c=1, d=1, e=1)
 lista_diccionario("uno", "dos", "tres", "cuatro", a=4, b=3, c=2, d=1)
+
+
+# Funciones anidadas
+def funcion_uno():
+    print("ESTA ES LA FUNCION 1")
+
+    def funcion_dos():
+        print("ESTA ES LA FUNCION 2 ANIDADA")
+    funcion_dos()
+
+
+funcion_uno()

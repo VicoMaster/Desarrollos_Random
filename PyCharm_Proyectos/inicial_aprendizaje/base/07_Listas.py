@@ -1,3 +1,4 @@
+# coding: utf-8
 # Uso de Listas
 lista = [1, 2, 3, 4, 5]
 lista_2 = ["Hola", 3, 0.5, True]

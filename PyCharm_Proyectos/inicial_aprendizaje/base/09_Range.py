@@ -1,3 +1,4 @@
+# coding: utf-8
 # Uso range
 """
 Funcion que fue cambiada en Python 3,

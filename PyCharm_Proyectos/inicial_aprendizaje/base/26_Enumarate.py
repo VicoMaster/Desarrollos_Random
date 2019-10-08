@@ -1,4 +1,5 @@
 # Uso de Funcion Enumarate
+# coding: utf-8
 
 lista = [20, 21, 22, 23, 24, 25, 26]
 print(list(enumerate(lista)))

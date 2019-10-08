@@ -1,3 +1,4 @@
+# coding: utf-8
 # Uso de Tuplas
 # Lo que hace a una Tupla una Tupla es la Coma, no el parentesis
 # Una tupla representa lo que compone un objeto,persona o cosa.

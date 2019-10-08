@@ -1,3 +1,4 @@
+# coding: utf-8
 # Uso de la Palabra reservada IN
 
 Palabras = "abcdfghijklmnñsopqrstuvwxyz"

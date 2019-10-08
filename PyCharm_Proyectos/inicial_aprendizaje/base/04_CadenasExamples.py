@@ -1,3 +1,4 @@
+# coding: utf-8
 # Ejemplos de Usos en Cadenas Python
 print("CARACTERES DE ESCAPE")
 frase = "Ella me dijo Hola"

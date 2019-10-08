@@ -3,6 +3,8 @@
 # Actualizar contacto
 # Ver contacto
 # Ver todos
+# coding: utf-8
+
 
 agenda_telefonica = dict()
 
