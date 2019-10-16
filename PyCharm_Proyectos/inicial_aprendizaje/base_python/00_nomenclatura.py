@@ -6,7 +6,8 @@
     - Objetos:Puede comenzar con cualquier letra o caracter '_' pero no con un Numero
                  Ej: Mi_Clase, clase1
     - Evitar CARACTERES: 'I', 'O'
-    - Paquetes o Modulos: Utilizar nombres cortos y siempre utilizar minuscula
+    - Paquetes o Modulos: Utilizar nombres cortos y siempre utilizar minuscula, no reconoce numeros iniciando el nombre
+                          al importar modulos.
                  Ej: os, package
     - Clases: iniciar siempre con letra Mayuscula. Inclusive, las iniciales de nombres
                 Ej: LetraMayuscula, NombreClase

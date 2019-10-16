@@ -4,8 +4,8 @@
 nombre = "Modulo Personalizado"
 contador = 0
 
-print("Modulo ejecutado")
+print("Modulo ejecutado solo por Importarse")
 
 
 def funcion_modular(*args):
-    print(args)
+    print("ENTRO AL MODULO IMPORTADO!!! \n", args)
