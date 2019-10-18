@@ -77,3 +77,43 @@ from math import *
 Esto no es recomendado por el alto contenido de nuestra tabla de Simbolos o Symtable y posterior uso de recursos
 para buscarla.
 """
+
+"""
+LOCALIZACION DE MODULOS
+La primera verificación que hace Python es si es un Modulo Builtings si no lo es recorrera el directorio de ejecución.
+Al utilizar a la instruccion import Python recorre una lista de directorios en busca del modulo.
+
+from sys import path <- Localización de los modulos que estamos ejecutando
+
+Formas para definir los Paths donde Python ira a buscar la importación de modulos.
+DIRECTORIO BASE: Lugar donde el Script principal es ejecutado
+Variable ambiente PYTHONPATH: define ambientes virtuales
+Biblioteca Estandar: directorio de instalación de la version de Python
+Directorio definitido *.pth 
+
+Jerarquias de EXTENSIONES
+.pyd  *.dll en windows o *.so en unix
+.py
+.pyc o .pyo
+.modulo "carpeta"
+modulo.so en Linux
+una imagen en la memoria  
+"""
+
+# Lugares de Busqueda cuando se importa un modulo. Si no es builtins inicia desde el lugar de ejecución del script
+from pprint import pprint  # Funcion de print que muestra bonito los datos.
+from sys import path as lpath
+pprint(lpath)
+
+# Para insertar un path a la lista de busqueda de Python
+# sys.path.insert(0, ""C:\\dev\\tmp)  <- Se inserta nuevo path en la primera posicion de la lista
+
+"""
+MODULO PRINCIPAL: "archivo de nivel superior"
+El bytecode del modulo principal es creado al momento de iniciar la ejecución,
+este mismo no es guardado en disco si no en memoria, a excepcion de los demas modulos importados que si generan
+su bytecode en la carpeta __pycache__
+Por defecto el nombre interno de este modulo python lo renombrara como __main__
+Es eñ archivo python el cual esta siendo ejecutado por primera vez.
+
+"""
