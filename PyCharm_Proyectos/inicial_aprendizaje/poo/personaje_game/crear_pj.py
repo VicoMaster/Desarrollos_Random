@@ -1,6 +1,6 @@
 # Este es el Metodo Main
 
-from poo.src.pj_base import Personaje
+from poo.personaje_game.pj_base import Personaje
 
 guerrero = Personaje()
 
