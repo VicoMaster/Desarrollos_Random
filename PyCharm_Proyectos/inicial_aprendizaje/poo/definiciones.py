@@ -35,4 +35,20 @@
     cuad.a = 10
     area = cuad.area()
 
+    METODO CONSTRUCTOR:   no es necesario declarar este metodo
+    El parametro self recibe la instancia
+    class Persona:
+        def __init__(self):
+            self.a = 0
+            self.b = 0
+
+
+    obj.miembro = 0  # Nuevo miembro
+
+
+    ADICIONAR UNA NUEVA FUNCION A LA INSTANCIA:
+    def funcion():
+        pass
+
+    obj.new_funcion = funcion  # Sin parentesis para manejar la funcion en memoria y no la ejecucion
 """
