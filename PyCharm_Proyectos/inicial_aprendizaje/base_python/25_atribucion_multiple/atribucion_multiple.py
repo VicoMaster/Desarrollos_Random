@@ -21,3 +21,11 @@ print(var)
 num = int(input("Digite un Numero: "))
 texto = "PAR" if num % 2 == 0 else "IMPAR"
 print(texto)
+
+a, *b, c = 1, 2, 3, 4, 5
+print(a, b, c)
+
+# Guiones para Legibilidad
+a = 10_000_000
+b = 10000000
+print(a == b)
