@@ -2,6 +2,11 @@
 # Metodos getters y setters  - Metodos accesorios
 # Son metodos utilizados para la construccion de la interfaz publica.
 # "Interfaz de Acceso"
+"""
+    No es recomendada la utilizacion de metodos Getters y Setters por la comunidad Python
+    ya que esto es una forma de trabajar que ademas de verbosa perjudica la lectura del codigo he implica algunas
+    limitaciones.
+"""
 
 
 def valida_parametro(diccionario):
