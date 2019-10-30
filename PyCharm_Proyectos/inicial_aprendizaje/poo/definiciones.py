@@ -51,4 +51,8 @@
         pass
 
     obj.new_funcion = funcion  # Sin parentesis para manejar la funcion en memoria y no la ejecucion
+
+    *** OBJETOS CLASE ***
+    Clase.__clase__
+    Clase.__name__
 """
