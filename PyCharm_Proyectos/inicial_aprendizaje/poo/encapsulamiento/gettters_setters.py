@@ -57,4 +57,5 @@ class ModificarTorta:
     def _funcion_secreta(self):
         pass
 
+
 objeto = ModificarTorta("xxx", False, "asdasd")
