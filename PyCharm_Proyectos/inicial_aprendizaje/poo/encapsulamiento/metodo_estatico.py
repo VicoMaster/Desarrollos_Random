@@ -22,7 +22,7 @@ class MetodoEstatico:
     @staticmethod
     def func2(x, y):
         print("Funcion '{}' invocada."
-              "\nParametros=({}{})".format("func2", x, y))
+              "\nParametros=({}, {})".format("func2", x, y))
 
     @staticmethod
     def func3(a, b, c):
