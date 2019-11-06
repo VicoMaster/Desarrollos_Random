@@ -7,7 +7,7 @@ from personaje import Personaje
 
 class Guerrero(Personaje):
     def __init__(self):
-        super().__init__(clase="GUERRERO", hechizo="¡¡¡FILOTORMENTA!!!")
+        super().__init__(clase="GUERRERO", hechizo="¡¡¡FILOTORMENTA!!!", genero=True)
         """Personaje.__init__(self)  # Es una forma de sobre escribir los atributos de otra clase para herencia multiple
         self.clase = "GUERRERO"
         self.hechizo = "¡¡¡FILOTORMENTA!!!"""
