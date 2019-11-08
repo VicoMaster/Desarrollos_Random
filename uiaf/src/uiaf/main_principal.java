@@ -25,10 +25,10 @@ public class main_principal {
 	public static final String UTF8_BOM = "\uFEFF";
 	public static void main(String[] args) throws IOException {
 		try {
-			main_principal.logginTrace("*** INICIA EJECUCION DE JAR ***");
-			main_principal.logginTrace("PARAMETROS EN CURSO: "+args[0]);
 			//args = new String[1];
 			//args[0] = "/home/vicomaster/Escritorio/SALDOS_BANKTRADE_UIAF_ANEXO6_20191107220011.txt";
+			main_principal.logginTrace("*** INICIA EJECUCION DE JAR ***");
+			main_principal.logginTrace("PARAMETROS EN CURSO: "+args[0]);
             boolean firstLine = true;           
             FileInputStream fis = new FileInputStream(args[0]);
             BufferedReader r = new BufferedReader(new InputStreamReader(fis,"UTF8"));
@@ -104,7 +104,7 @@ public class main_principal {
 		}
     }
     
-    private static String logginTrace(String mensaje) {
+    private static void logginTrace(String mensaje) {
     	String trace = "";
     	Calendar fecha = new GregorianCalendar();
 		trace = (fecha.get(Calendar.YEAR)
@@ -115,7 +115,7 @@ public class main_principal {
 				+fecha.get(Calendar.SECOND)+": "+mensaje);
 		fecha.clear();
         fecha = null;
-		return trace;
+        System.out.println(trace);
     }
     
 }
