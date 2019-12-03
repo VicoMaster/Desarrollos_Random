@@ -1,11 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af1a668c-4d23-4adf-8f14-1608ddfd604b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vicomaster.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000_hello_world/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_widgets/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_widgets/label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inicial_kivy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inicial_kivy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1UUB4ZOeyyWrEFugR5YrOyZrbqq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="inicial_kivy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001_imprimiendo_textos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001_imprimiendo_textos/label.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="inicial_kivy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hello_world" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello_world/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af1a668c-4d23-4adf-8f14-1608ddfd604b" name="Default Changelist" comment="" />
+      <created>1575401102577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575401102577</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="122" key="FileChooserDialogImpl" timestamp="1575405635949">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="466" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1575405635949" />
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom" timestamp="1575407856062">
+      <screen x="0" y="0" width="2732" height="732" />
+    </state>
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1575406432535" />
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.2732.732@0.0.2732.732" timestamp="1575407856062" />
+    <state width="1345" height="173" key="GridCell.Tab.0.center" timestamp="1575407856060">
+      <screen x="0" y="0" width="2732" height="732" />
+    </state>
+    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1575406432534" />
+    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.2732.732@0.0.2732.732" timestamp="1575407856060" />
+    <state width="1345" height="173" key="GridCell.Tab.0.left" timestamp="1575407856058">
+      <screen x="0" y="0" width="2732" height="732" />
+    </state>
+    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1575406432534" />
+    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.2732.732@0.0.2732.732" timestamp="1575407856058" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right" timestamp="1575407856061">
+      <screen x="0" y="0" width="2732" height="732" />
+    </state>
+    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1575406432535" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.2732.732@0.0.2732.732" timestamp="1575407856061" />
+    <state x="173" y="0" width="1020" height="732" key="SettingsEditor" timestamp="1575405651426">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="173" y="0" width="1020" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1575405651426" />
   </component>
 </project>
