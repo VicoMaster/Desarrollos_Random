@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1a668c-4d23-4adf-8f14-1608ddfd604b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/001_widgets/text_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001_widgets/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/001_widgets/button.py" afterDir="false" />
-    </list>
+    <list default="true" id="af1a668c-4d23-4adf-8f14-1608ddfd604b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,29 +160,33 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="466" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1575405635949" />
-    <state width="1345" height="173" key="GridCell.Tab.0.bottom" timestamp="1575412946669">
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom" timestamp="1575413830695">
       <screen x="0" y="0" width="2732" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1575406432535" />
-    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.2732.732@0.0.2732.732" timestamp="1575412946669" />
-    <state width="1345" height="173" key="GridCell.Tab.0.center" timestamp="1575412946668">
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.2732.732@0.0.2732.732" timestamp="1575413830695" />
+    <state width="1345" height="173" key="GridCell.Tab.0.center" timestamp="1575413830693">
       <screen x="0" y="0" width="2732" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1575406432534" />
-    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.2732.732@0.0.2732.732" timestamp="1575412946668" />
-    <state width="1345" height="173" key="GridCell.Tab.0.left" timestamp="1575412946668">
+    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.2732.732@0.0.2732.732" timestamp="1575413830693" />
+    <state width="1345" height="173" key="GridCell.Tab.0.left" timestamp="1575413830692">
       <screen x="0" y="0" width="2732" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1575406432534" />
-    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.2732.732@0.0.2732.732" timestamp="1575412946668" />
-    <state width="1345" height="173" key="GridCell.Tab.0.right" timestamp="1575412946669">
+    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.2732.732@0.0.2732.732" timestamp="1575413830692" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right" timestamp="1575413830694">
       <screen x="0" y="0" width="2732" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1575406432535" />
-    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.2732.732@0.0.2732.732" timestamp="1575412946669" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.2732.732@0.0.2732.732" timestamp="1575413830694" />
     <state x="173" y="0" width="1020" height="732" key="SettingsEditor" timestamp="1575405651426">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="173" y="0" width="1020" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1575405651426" />
+    <state x="349" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1575473767331">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="349" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1575473767331" />
   </component>
 </project>
