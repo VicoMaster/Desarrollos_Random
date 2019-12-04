@@ -9,9 +9,13 @@ from kivy.uix.button import Button
 from kivy.config import Config
 
 
+def click():
+    print(ingreso.text)
+
+
 def build():
     layaout = FloatLayout()
-
+    global ingreso
     ingreso = TextInput(text="PRIMER TEXTO")
     ingreso.size_hint = None, None
     ingreso.height = 300
@@ -25,6 +29,7 @@ def build():
     boton.width = 200
     boton.y = 130
     boton.x = 170
+    boton.on_press = click
 
     layaout.add_widget(ingreso)
     layaout.add_widget(boton)
@@ -33,9 +38,11 @@ def build():
 
 
 ventana = App()
+ventana.title = "PRIMERA VENTANA!!!"
 Config.set('graphics', 'width', '500')
 Config.set('graphics', 'height', '550')
 # Window.size = (300, 100)
+global ingreso
 ventana.build = build
 ventana.run()
 """
