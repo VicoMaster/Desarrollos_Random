@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1a668c-4d23-4adf-8f14-1608ddfd604b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/medida.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/medida.kv" beforeDir="false" afterPath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/medida.kv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +45,7 @@
       <recent name="$PROJECT_DIR$/kvlang_usage/kv_hello_world" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.helloworldkivy">
-    <configuration name="hello_word_wkv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="inicial_kivy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kvlang_usage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kvlang_usage/hello_word_wkv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="helloworld_kivy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +109,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="inicial_kivy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main_pantalla" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.helloworldkivy" />
         <item itemvalue="Python.helloworld_kivy" />
         <item itemvalue="Python.hw_kivy" />
         <item itemvalue="Python.main_pantalla" />
-        <item itemvalue="Python.hello_word_wkv" />
       </list>
     </recent_temporary>
   </component>
@@ -199,39 +198,39 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="466" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1575405635949" />
-    <state width="1345" height="173" key="GridCell.Tab.0.bottom" timestamp="1575586534276">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1576623200365">
+      <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534276" />
-    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1575406432535" />
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1576623200365" />
     <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.2732.732@0.0.2732.732" timestamp="1575491221910" />
-    <state width="1345" height="173" key="GridCell.Tab.0.center" timestamp="1575586534276">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1576623200355">
+      <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534276" />
-    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1575406432534" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1576623200355" />
     <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.2732.732@0.0.2732.732" timestamp="1575491221908" />
-    <state width="1345" height="173" key="GridCell.Tab.0.left" timestamp="1575586534275">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1576623200355">
+      <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534275" />
-    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1575406432534" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1576623200355" />
     <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.2732.732@0.0.2732.732" timestamp="1575491221908" />
-    <state width="1345" height="173" key="GridCell.Tab.0.right" timestamp="1575586534276">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1576623200356">
+      <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534276" />
-    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1575406432535" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1576623200356" />
     <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.2732.732@0.0.2732.732" timestamp="1575491221909" />
     <state x="173" y="0" width="1020" height="732" key="SettingsEditor" timestamp="1575405651426">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="173" y="0" width="1020" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1575405651426" />
-    <state x="1715" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1576015888706">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="349" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1576621195315">
+      <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="1715" y="202" key="com.intellij.ide.util.TipDialog/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1576015888706" />
-    <state x="349" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1575650880682" />
+    <state x="349" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1576621195315" />
     <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575580456762">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
