@@ -1,0 +1,26 @@
+*PROPIEDADES
+Las propiedades size_hint_x y size_hint_y definen a las dimensio nes porcentuales de cada eje en el plano
+FloatLayout:
+    Button:
+        size_hint: (.8, .2)  # Longitud/altura
+
+* Con valor estatico - absoluto
+size_hint_x: None  # size_hint: (None, None)
+width: 400
+size_hint_y: None
+height: 400
+
+Pixeles:
+size_hint: (None, None)
+size: (400, 200)
+
+
+* Propiedades Procetuales
+size_hint (tupla)
+size_hint_x
+size_hint_y
+
+ABSOLUTAS
+size
+width
+height

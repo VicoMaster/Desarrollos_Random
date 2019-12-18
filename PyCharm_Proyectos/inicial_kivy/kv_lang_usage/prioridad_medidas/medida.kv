@@ -1,7 +1,8 @@
-<RootWidget>:
+# <RootWidget@FloatLayout>  para extender de FloatLayout
+<RootWidget>: # Definimos nueva clase en Kivy que sera el contenedor de los componentes
 # En pixeles
     Button:
-        size_hint: None, None
+        size_hint: None, None # Porcentual
         size: 350, 50
         x: 100
         y: 350
@@ -15,5 +16,5 @@
 # Porcentaje de medida - Porcentual
     Button:
         size_hint: .5, .09
-        pos_hint: {"x": .1, "y": .1}
+        pos_hint: {"x": .1, "y": .1} # 10%
         text: "%"

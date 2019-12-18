@@ -1,0 +1,49 @@
+* Gestores de Layout
+Son Widgets que organizan Widgets
+* Sufijo Hint (pista) numero porcentual
+Son propiedades que sus valores deben ser definidos en valores porcentuales.
+* Valores Porcentuales
+Deben estar dentro del intervalo entre 0.0 y 1.0 Ejemplo: 1. = 100% - 0.01 = 1%
+* Pos_Hint
+All Widget tiene esta propiedad. espera un diccionario con los ejes asociados a valores porcentuales.
+pos_hint: {"x": .1, "y": .1}
+pos_hint: {"x": .1}
+pos_hint: {"y": .5} # Centro
+
+Button:
+    pos_hint: {"x": .1, "y": .1}
+
+
+* X o Y
+Son las unicas propiedades que definen posicionamiento en PIXELES
+x: 100
+y: 350
+
+* POS
+La propiedad pos reciba una tupla donde el primer valor es atribuido a la propiedad X y el segundo valor a la propiedad Y
+Ejemplo:   Button:
+                pos: 100, 350
+
+* RIGHT
+{rigth: 1.}
+FloatLayout:
+    Button:
+        rigth: 500
+        y: 200s
+{rigth: 1.}
+
+* TOP
+{top: 1.}
+* CENTER # Centro del Widget "center_x = x+(width/2)"
+{center: 1.}
+
+* Valor Absoluto: Rigth + Top
+FloatLayout:
+    Button:
+        rigth: 500
+        top: 200
+* Center
+FloatLayout:
+    Button:
+        center_x: 200
+        center_y: 100
