@@ -2,11 +2,1425 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1a668c-4d23-4adf-8f14-1608ddfd604b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kv_lang_usage/dimensiones/dimensiones.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kv_lang_usage/gestores_layout/definiciones" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/3Drendering/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/3Drendering/monkey.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/3Drendering/objloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/3Drendering/simple.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/RST_Editor/editor.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/RST_Editor/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/compass/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/compass/compass.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/compass/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/compass/needle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/compass/rose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/takepicture/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/takepicture/buildozer.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/takepicture/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/takepicture/shadow32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/android/takepicture/takepicture.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/animation/animate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/app_suite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/app_suite_data/testkvdir.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/app_with_build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/app_with_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/app_with_kv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/app_with_kv_in_template1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/template1/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/application/testkvfile.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/async/asyncio_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/async/asyncio_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/async/trio_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/async/trio_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12908_sweet_trip_mm_clap_hi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12909_sweet_trip_mm_clap_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12910_sweet_trip_mm_clap_mid.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12911_sweet_trip_mm_hat_cl.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12913_sweet_trip_mm_kick_hi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12914_sweet_trip_mm_kick_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12915_sweet_trip_mm_kick_mid.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12916_sweet_trip_mm_kwik_mod_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12917_sweet_trip_mm_kwik_mod_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12918_sweet_trip_mm_kwik_mod_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12919_sweet_trip_mm_kwik_mod_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12920_sweet_trip_mm_kwik_mod_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12921_sweet_trip_mm_kwik_mod_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12922_sweet_trip_mm_kwik_mod_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12923_sweet_trip_mm_metal_clave.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12925_sweet_trip_mm_sweep_x.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12926_sweet_trip_mm_sweep_y.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/12927_sweet_trip_mm_sweep_z.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/audio.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/buildozer.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/audio/pitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/camera/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/bezier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/canvas_stress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/fbo_canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/kiwi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/lines_extended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/mesh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/mesh_manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/mtexture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/mtexture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/multitexture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/repeat_texture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/rounded_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/stencil_canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/tesselate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/texture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/canvas/texture_example_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/container/kv/1.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/container/kv/2.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/container/kv/3.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/container/kv/root.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/container/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/cover/cover_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/cover/cover_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/camera_puzzle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/AnchorLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/BoxLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/ButtonContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/CheckBoxContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/FileChooserContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/FloatLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/GridLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/LabelContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/MediaContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/PlaygroundContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/PopupContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/ProgressBarContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/RestContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/ScatterContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/SelectorsContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/StackLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/TextContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/kivycatalog.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/kivycatalog/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/gesturedatabase.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/gesturedatabase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/historymanager.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/historymanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/multistroke.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/settings.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/multistroke/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/images/.empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/images/Bubbles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/images/Ill1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/images/Wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/images/faust_github.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/pictures.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/pictures/shadow32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/shadereditor/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/shadereditor/shadereditor.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/faust_github.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/icons/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/icons/bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/icons/chevron-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/icons/chevron-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/accordions.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/bubbles.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/buttons.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/carousel.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/checkboxes.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/codeinput.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/dropdown.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/filechoosers.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/popups.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/progressbar.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/rstdocument.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/scatter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/screenmanager.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/sliders.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/spinner.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/splitter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/switches.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/tabbedpanel + layouts.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/textinputs.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/data/screens/togglebutton.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/showcase/showcase.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/touchtracer/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/touchtracer/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/touchtracer/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/touchtracer/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/touchtracer/particle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/demo/touchtracer/touchtracer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/frameworks/twisted/echo_client_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/frameworks/twisted/echo_server_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/frameworks/twisted/twistd_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/gestures/gesture_board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/gestures/my_gestures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/designwithkv/controller.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/designwithkv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/firstwidget/1_skeleton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/firstwidget/2_print_touch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/firstwidget/3_draw_ellipse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/firstwidget/4_draw_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/firstwidget/5_random_colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/firstwidget/6_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/guide/quickstart/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/includes/button.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/includes/layout.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/includes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/includes/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/keyboard/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/keyboard/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/keyboard/numeric.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kinect/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kinect/kinectviewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_button.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_camera.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_fbo.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_layout.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_logo.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_scatter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_stencil.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/app_video.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/builder_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/ids/id_in_kv/id_in_kv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/ids/id_in_kv/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/ids/kv_and_py/kv_and_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/ids/kv_and_py/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/kivy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kv/kvrun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/imagesave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/joystick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/multiple_dropfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/on_textedit_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/shapecollisions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/shapedwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/two_panes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/miscellaneous/urlrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/settings/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/settings/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/plasma.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/plasma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/rotated.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/rotated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/shadertree.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/shadertree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/shader/tex3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/main-smaa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/ship.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/tiger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/text/pango_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/notes/final/buildozer.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/notes/final/data/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/notes/final/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/notes/final/note.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step1/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step2/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step3/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step4/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tutorials/pong/steps/step5/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/accordion_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/actionbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/asyncimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/boxlayout_poshint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/bubble_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/carousel_buttons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/cityCC0.jsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/cityCC0.mpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/cityCC0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/codeinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/codeinputtest.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/colorpicker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/colorusage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/compound_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/customcollide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/effectwidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/effectwidget2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/effectwidget3_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/fbowidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/focus_behavior.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/image_mipmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/keyboardlistener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/label_mipmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/label_sizing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/label_text_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/label_with_markup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/lang_dynamic_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/pagelayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/popup_with_kv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/rstexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/scatter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/screenmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/scrollview.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/scrollview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/bird.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/button_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/button_white_animated.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/cube.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/info.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/simple_cv_joint_animated.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/main.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/uix/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/sequenced_images/uix/custom_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/shorten_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/tabbed_panel_showcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/tabbedpanel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/textalign.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/textalign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/unicode_textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/widgets/videoplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/Dockerfile.armv7l" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/build-wheels-linux.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/id_rsa.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/osx_ci.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/osx_versions.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/ubuntu_ci.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/windows-server-upload.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.ci/windows_ci.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/mcnotify.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/move.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/no-response.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/support.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/manylinux_wheels.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/osx_wheels_app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/rpi_wheels.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/test_osx_python.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/test_ubuntu_python.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/test_windows_python.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.github/workflows/windows_wheels.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/.readthedocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/autobuild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/doc-requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/gallery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/disclosure_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/disclosure_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/element-class-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/element-enumeration-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/element-field-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/element-method-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/element-property-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/element-structure-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/fresh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/jquery-effects-core-and-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/kivy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.static/logo-kivy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/.templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/contact.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/contents.rst.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/contribute-unittest.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/contribute.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/examples/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/faq.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/diving.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/drawing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/events.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/examples.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/first_app.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/framework.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/installation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/intro.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/layouts.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/packaging.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/properties.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gettingstarted/rules.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gsoc.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gsoc2014.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gsoc2015.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/gsoc2016.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide-index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/android.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/architecture.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/basic.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/config.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/environment.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/events.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/graphics.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/Events.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/Events.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/api-button.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/custom_layout_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/global_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/guide_customize_step1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/layout_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/pos_hint.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/property_events_binding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/quickstart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/size_hint[B].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/size_hint[b_].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/size_hint[bb].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/images/size_hint[oB].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/inputs.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/lang.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/licensing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/other-frameworks.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/packaging-android.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/packaging-ios-prerequisites.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/packaging-ios.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/packaging-osx.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/packaging-windows.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/packaging.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/guide/widgets.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/Kivy_App_Life_Cycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/Kivy_App_Life_Cycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/accordion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/actionbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/adapters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anchorlayout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anchorlayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_bounce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_circ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_cubic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_elastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_expo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_bounce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_circ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_cubic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_elastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_expo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_quad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_quart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_quint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_out_sine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_quad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_quart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_quint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_in_sine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_linear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_bounce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_circ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_cubic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_elastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_expo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_quad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_quart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_quint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/anim_out_sine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/app-settings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/architecture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/boxlayout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/boxlayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/bubble.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/button.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/carousel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/codeinput.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/dropdown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/easing-modes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/3Drendering__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/animation__animate__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/application__app_suite__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/application__app_with_build__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/application__app_with_kv__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/application__app_with_kv_in_template1__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/camera__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__bezier__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__canvas_stress__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__circle__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__fbo_canvas__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__lines__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__lines_extended__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__mesh__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__multitexture__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__repeat_texture__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__rotation__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__stencil_canvas__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__tesselate__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/canvas__texture__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__camera_puzzle__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__kivycatalog__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__multistroke__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__pictures__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__shadereditor__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__showcase__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/examples/demo__touchtracer__main__py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/filechooser_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/filechooser_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/floatlayout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/floatlayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gridlayout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gridlayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gridlayout_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gridlayout_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gridlayout_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-animation.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-atlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-drawing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-events-class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-events-clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-events-input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-introduction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-lang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/gs-tutorial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/input_xbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/line-instruction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/linux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/macosx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/pagelayout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/popup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/progressbar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/raspberrypi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/relativelayout-doubleposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/relativelayout-fixedposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/rstdocument.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/scatter.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/screenmanager.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/settings_kivy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/settingswithspinner_kivy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/slider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/spinner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/splitter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/stacklayout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/stacklayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/stacklayout_sizing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/stencilview.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/switch-off.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/switch-on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/tabbed_panel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/tesselator-debug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/tesselator-filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/textinput-mono.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/textinput-multi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/togglebutton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/treeview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/unicode-char.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/videoplayer-annotation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/videoplayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/vkeyboard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/images/windows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/deps-cython.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-result1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-result2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/images/win-step9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-android.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-devel.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-linux-venvs.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-linux.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-osx.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-rpi.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/installation/installation-windows.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/kivy-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/kivystyle.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/philosophy.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/sphinxext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/sphinxext/autodoc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/sphinxext/kivy_pygments_theme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/sphinxext/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials-index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/crashcourse.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/firstwidget.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/images/guide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/images/guide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/images/guide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/images/guide-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/pong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/tutorials/pong.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/doc/sources/user-guide.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/3Drendering/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/3Drendering/monkey.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/3Drendering/objloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/3Drendering/simple.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/RST_Editor/editor.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/RST_Editor/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/compass/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/compass/compass.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/compass/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/compass/needle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/compass/rose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/takepicture/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/takepicture/buildozer.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/takepicture/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/takepicture/shadow32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/android/takepicture/takepicture.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/animation/animate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/app_suite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/app_suite_data/testkvdir.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/app_with_build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/app_with_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/app_with_kv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/app_with_kv_in_template1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/template1/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/application/testkvfile.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/async/asyncio_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/async/asyncio_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/async/trio_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/async/trio_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12908_sweet_trip_mm_clap_hi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12909_sweet_trip_mm_clap_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12910_sweet_trip_mm_clap_mid.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12911_sweet_trip_mm_hat_cl.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12913_sweet_trip_mm_kick_hi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12914_sweet_trip_mm_kick_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12915_sweet_trip_mm_kick_mid.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12916_sweet_trip_mm_kwik_mod_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12917_sweet_trip_mm_kwik_mod_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12918_sweet_trip_mm_kwik_mod_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12919_sweet_trip_mm_kwik_mod_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12920_sweet_trip_mm_kwik_mod_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12921_sweet_trip_mm_kwik_mod_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12922_sweet_trip_mm_kwik_mod_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12923_sweet_trip_mm_metal_clave.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12925_sweet_trip_mm_sweep_x.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12926_sweet_trip_mm_sweep_y.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/12927_sweet_trip_mm_sweep_z.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/audio.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/buildozer.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/audio/pitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/camera/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/bezier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/canvas_stress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/fbo_canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/kiwi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/lines_extended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/mesh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/mesh_manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/mtexture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/mtexture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/multitexture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/repeat_texture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/rounded_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/stencil_canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/tesselate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/texture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/canvas/texture_example_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/container/kv/1.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/container/kv/2.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/container/kv/3.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/container/kv/root.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/container/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/cover/cover_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/cover/cover_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/camera_puzzle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/AnchorLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/BoxLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/ButtonContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/CheckBoxContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/FileChooserContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/FloatLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/GridLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/LabelContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/MediaContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/PlaygroundContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/PopupContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/ProgressBarContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/RestContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/ScatterContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/SelectorsContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/StackLayoutContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/container_kvs/TextContainer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/kivycatalog.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/kivycatalog/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/gesturedatabase.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/gesturedatabase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/historymanager.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/historymanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/multistroke.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/settings.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/multistroke/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/images/.empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/images/Bubbles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/images/Ill1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/images/Wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/images/faust_github.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/pictures.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/pictures/shadow32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/shadereditor/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/shadereditor/shadereditor.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/faust_github.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/icons/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/icons/bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/icons/chevron-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/icons/chevron-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/accordions.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/bubbles.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/buttons.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/carousel.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/checkboxes.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/codeinput.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/dropdown.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/filechoosers.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/popups.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/progressbar.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/rstdocument.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/scatter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/screenmanager.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/sliders.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/spinner.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/splitter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/switches.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/tabbedpanel + layouts.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/textinputs.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/data/screens/togglebutton.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/showcase/showcase.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/touchtracer/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/touchtracer/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/touchtracer/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/touchtracer/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/touchtracer/particle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/demo/touchtracer/touchtracer.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/frameworks/twisted/echo_client_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/frameworks/twisted/echo_server_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/frameworks/twisted/twistd_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/gestures/gesture_board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/gestures/my_gestures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/designwithkv/controller.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/designwithkv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/firstwidget/1_skeleton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/firstwidget/2_print_touch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/firstwidget/3_draw_ellipse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/firstwidget/4_draw_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/firstwidget/5_random_colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/firstwidget/6_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/guide/quickstart/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/includes/button.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/includes/layout.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/includes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/includes/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/keyboard/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/keyboard/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/keyboard/numeric.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kinect/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kinect/kinectviewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_button.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_camera.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_fbo.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_layout.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_logo.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_scatter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_stencil.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/app_video.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/builder_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/ids/id_in_kv/id_in_kv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/ids/id_in_kv/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/ids/kv_and_py/kv_and_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/ids/kv_and_py/test.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/kivy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/kv/kvrun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/imagesave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/joystick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/multiple_dropfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/on_textedit_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/shapecollisions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/shapedwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/two_panes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/miscellaneous/urlrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/settings/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/settings/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/plasma.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/plasma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/rotated.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/rotated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/shadertree.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/shadertree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/shader/tex3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/main-smaa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/ship.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/svg/tiger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/text/pango_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/notes/final/buildozer.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/notes/final/data/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/notes/final/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/notes/final/note.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step1/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step2/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step3/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step4/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/tutorials/pong/steps/step5/pong.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/accordion_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/actionbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/asyncimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/boxlayout_poshint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/bubble_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/carousel_buttons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/cityCC0.jsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/cityCC0.mpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/cityCC0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/codeinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/codeinputtest.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/colorpicker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/colorusage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/compound_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/customcollide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/effectwidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/effectwidget2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/effectwidget3_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/fbowidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/focus_behavior.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/image_mipmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/keyboardlistener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/label_mipmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/label_sizing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/label_text_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/label_with_markup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/lang_dynamic_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/pagelayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/popup_with_kv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/recycleview/basic_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/rstexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/scatter.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/screenmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/scrollview.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/scrollview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/bird.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/button_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/button_white_animated.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/cube.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/info.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/data/images/simple_cv_joint_animated.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/main.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/uix/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/sequenced_images/uix/custom_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/shorten_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/tabbed_panel_showcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/tabbedpanel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/textalign.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/textalign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/unicode_textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/examples/widgets/videoplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/_clock.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/_clock.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/_event.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/_event.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/atlas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/audio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/audio/audio_avplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/audio/audio_ffpyplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/audio/audio_gstplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/audio/audio_pygame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/audio/audio_sdl2.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_android.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_avfoundation.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_avfoundation_implem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_avfoundation_implem.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_gi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_opencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/camera/camera_picamera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/_clipboard_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/_clipboard_sdl2.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_android.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_dbusklipper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_dummy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_gtk3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_nspaste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_pygame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_sdl2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_winctypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_xclip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/clipboard/clipboard_xsel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/gl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/_img_sdl2.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_dds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_ffpyplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_imageio.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_pil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_pygame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_sdl2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/image/img_tex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/spelling/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/spelling/spelling_enchant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/spelling/spelling_osxappkit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/_text_pango.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/_text_sdl2.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/markup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/text_layout.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/text_layout.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/text_pango.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/text_pil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/text_pygame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/text/text_sdl2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/video/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/video/video_ffmpeg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/video/video_ffpyplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/video/video_gstplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/video/video_null.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/_window_sdl2.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_attrs.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_egl_rpi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_info.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_info.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_pygame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_sdl2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_x11.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_x11_core.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/core/window/window_x11_keytab.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/fonts/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/fonts/RobotoMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/glsl/default.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/glsl/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/glsl/default.vs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/glsl/header.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/glsl/header.vs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/defaultshape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/defaulttheme-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/defaulttheme.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/image-loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/images/testpattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/azerty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/de_CH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/en_US.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/fr_CH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/qwerty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/keyboards/qwertz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-64.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/logo/kivy-icon-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/settings_kivy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/data/style.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/deps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/effects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/effects/dampedscroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/effects/kinetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/effects/opacityscroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/effects/scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/extras/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/extras/highlight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/factory_registers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/gesture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/buffer.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/buffer.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl_backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl_backend/cgl_debug.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl_backend/cgl_gl.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl_backend/cgl_glew.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl_backend/cgl_mock.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/cgl_backend/cgl_sdl2.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/common.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/compiler.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/compiler.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/context.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/context.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/context_instructions.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/context_instructions.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/fbo.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/fbo.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/gl_debug_logger.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/gl_instructions.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/img_tools.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/instructions.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/instructions.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/memory.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/opcodes.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/opengl.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/opengl_utils.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/opengl_utils.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/opengl_utils_def.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/scissor_instructions.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/shader.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/shader.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/stencil_instructions.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/stencil_instructions.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/svg.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/svg.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/tesselator.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/tesselator.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/texture.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/texture.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/transformation.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/transformation.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vbo.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vbo.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vertex.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vertex.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vertex_instructions.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vertex_instructions.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/graphics/vertex_instructions_line.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/include/common_subset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/include/gl2platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/include/gl_redirect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/include/khrplatform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/motionevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/calibration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/dejitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/doubletap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/ignorelist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/retaintouch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/postproc/tripletap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/androidjoystick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/hidinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/leapfinger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/linuxwacom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/mactouch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/mouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/mtdev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/probesysfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/tuio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/wm_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/wm_pen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/providers/wm_touch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/input/shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/interactive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lang/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lang/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lang/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/ddsfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/gstplayer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/gstplayer/_gstplayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/gstplayer/_gstplayer.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/kivy_endian.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Include/tesselator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/bucketalloc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/bucketalloc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/dict.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/dict.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/geom.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/geom.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/mesh.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/mesh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/priorityq.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/priorityq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/sweep.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/sweep.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/tess.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/libtess2/Source/tess.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/mtdev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/pango/freetype2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/pango/pangoft2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/pango/pangoft2.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/sdl2.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/vidcore_lite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/vidcore_lite/bcm.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/vidcore_lite/bcm.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/lib/vidcore_lite/egl.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/_webdebugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/inspector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/joycursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/keybinding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/showborder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/touchring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/modules/webdebugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/multistroke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/network/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/network/urlrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/properties.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/properties.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/storage/dictstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/storage/jsonstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/storage/redisstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/async_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/coverage_lang.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/perf_test_textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/simple_widget/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/simple_widget/main.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/simple_widget/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/simple_widget/project/widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/test_pyinstaller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/video_widget/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/video_widget/main.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/pyinstaller/video_widget/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/sample1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_animations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_coverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_doc_gallery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_fbo_py2py3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_filechooser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_filechooser_unicode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_fonts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_graphics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_imageloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_invalid_lang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_issues/test_6315.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_issues/test_issue_1084.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_issues/test_issue_1091.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_issues/test_issue_599.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_issues/test_issue_609.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_issues/test_issue_883.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_knspace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_lang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_lang_complex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_lang_pre_process_and_post_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_module_inspector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_mouse_multitouchsim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_multistroke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_rst_replace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_actionbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_anchorlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_asyncimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_boxlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_carousel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_dropdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_gridlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_modal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_relativelayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_scrollview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_slider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_stacklayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_translate_coordinates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_uix_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_urlrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_widget_walk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/test_window_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/testkv.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/unicode_files.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/unicode_font.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tests/visual_test_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/changelog_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/coverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/generate-icons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/gles_compat/gl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/gles_compat/subset_gles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/highlight/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/highlight/kivy-mode.el" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/highlight/kivy.json-tmlanguage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/highlight/kivy.tmLanguage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/highlight/kivy.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/image-testsuite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/image-testsuite/gimp28-testsuite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/image-testsuite/imagemagick-testsuite.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/kviewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/cython_cfg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/pyinstaller_hooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/pyinstaller_hooks/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/pyinstaller_hooks/hook-kivy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/pep8checker/pep8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/pep8checker/pep8kivy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/pep8checker/pre-commit.githook" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/stub-gl-debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/texturecompress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_group_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_group_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_item_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/action_view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/audio-volume-high.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/audio-volume-low.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/audio-volume-medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/audio-volume-muted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/bubble_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/bubble_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/bubble_btn_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/button_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/button_disabled_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/button_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_disabled_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_disabled_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_radio_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/checkbox_radio_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/filechooser_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/filechooser_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/filechooser_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/image-missing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/media-playback-pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/media-playback-start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/media-playback-stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/modalview-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/overflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/player-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/player-play-overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/previous_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/progressbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/progressbar_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/selector_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/selector_middle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/selector_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/slider_cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/slider_cursor_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/sliderh_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/sliderh_background_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/sliderv_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/sliderv_background_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/spinner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/spinner_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/spinner_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_disabled_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_disabled_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_down_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_grip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_grip_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/splitter_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/switch-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/switch-background_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/switch-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/switch-button_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tab_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tab_btn_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tab_btn_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tab_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/textinput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/textinput_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/textinput_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/textinput_disabled_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tree_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/tree_opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/vkeyboard_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/vkeyboard_key_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/tools/travis/id_rsa.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/accordion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/actionbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/anchorlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/codenavigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/compoundselection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/cover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/drag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/emacs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/focus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/knspace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/togglebutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/behaviors/touchripple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/boxlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/bubble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/carousel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/checkbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/codeinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/colorpicker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/dropdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/effectwidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/filechooser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/floatlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/gesturesurface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/gridlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/modalview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/pagelayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/popup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/progressbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recycleboxlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recyclegridlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recyclelayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recycleview/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recycleview/datamodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recycleview/layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/recycleview/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/relativelayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/rst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/sandbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/scatterlayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/screenmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/scrollview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/slider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/stacklayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/stencilview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/switch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/tabbedpanel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/togglebutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/treeview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/videoplayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/vkeyboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/uix/widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/weakmethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/kivy/weakproxy.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kivy-master/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inicial_kivy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inicial_kivy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/medida.kv" beforeDir="false" afterPath="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/medida.kv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +1454,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/kv_lang_usage" />
+      <recent name="$PROJECT_DIR$/kv_lang_usage/kivycatalog/container_kvs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/kv_lang_usage/hello_world_kivy" />
       <recent name="$PROJECT_DIR$/kv_lang_usage" />
@@ -48,8 +1467,8 @@
       <recent name="$PROJECT_DIR$/kvlang_usage/kv_hello_world" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="helloworld_kivy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="animate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +1476,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kv_lang_usage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/animation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kv_lang_usage/helloworld_kivy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/animation/animate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +1489,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helloworldkivy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +1497,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kv_lang_usage/hello_world_kivy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/canvas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kv_lang_usage/hello_world_kivy/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/canvas/circle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +1510,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw_kivy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +1518,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kvlang_usage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/tutorials/notes/final" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/002_primera_pantalla/hw_kivy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/tutorials/notes/final/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +1531,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +1539,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/demo/kivycatalog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kv_lang_usage/prioridad_medidas/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/demo/kivycatalog/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +1552,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_pantalla" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inicial_kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +1560,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/002_primera_pantalla" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/tutorials/pong" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/002_primera_pantalla/main_pantalla.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/tutorials/pong/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +1575,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.helloworldkivy" />
-        <item itemvalue="Python.helloworld_kivy" />
-        <item itemvalue="Python.hw_kivy" />
-        <item itemvalue="Python.main_pantalla" />
+        <item itemvalue="Python.animate" />
+        <item itemvalue="Python.circle" />
       </list>
     </recent_temporary>
   </component>
@@ -201,43 +1620,43 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="379" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.732@0.0.1366.732" timestamp="1576700147438" />
-    <state x="466" y="122" key="FileChooserDialogImpl" timestamp="1575405635949">
+    <state x="466" y="122" width="432" height="487" key="FileChooserDialogImpl" timestamp="1577507452467">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="466" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1575405635949" />
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1576706918381">
+    <state x="466" y="122" width="432" height="487" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1577507452467" />
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1577508757859">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534276" />
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1576706918381" />
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577508757859" />
     <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.2732.732@0.0.2732.732" timestamp="1575491221910" />
-    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1576706918379">
+    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1577508757857">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534276" />
-    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1576706918379" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577508757857" />
     <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.2732.732@0.0.2732.732" timestamp="1575491221908" />
-    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1576706918379">
+    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1577508757855">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534275" />
-    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1576706918379" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577508757855" />
     <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.2732.732@0.0.2732.732" timestamp="1575491221908" />
-    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1576706918380">
+    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1577508757858">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1575586534276" />
-    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1576706918380" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577508757858" />
     <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.2732.732@0.0.2732.732" timestamp="1575491221909" />
-    <state x="173" y="0" width="1020" height="732" key="SettingsEditor" timestamp="1575405651426">
+    <state x="173" y="0" width="1020" height="732" key="SettingsEditor" timestamp="1577508714502">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="173" y="0" width="1020" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1575405651426" />
-    <state x="349" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1576682215857">
+    <state x="173" y="0" width="1020" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1577508714502" />
+    <state x="349" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577394498140">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="1715" y="202" key="com.intellij.ide.util.TipDialog/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1576015888706" />
-    <state x="349" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1576682215857" />
+    <state x="349" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1577394498140" />
     <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575580456762">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>

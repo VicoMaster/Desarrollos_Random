@@ -1,0 +1,4 @@
+/home/vicomaster/kivy_venv/bin/python
+Entorno virtual he instalacion de python
+Para Activar el entorno virtual se usa la siguiente configuracion:
+source: /home/user/name_env/bin/activate
