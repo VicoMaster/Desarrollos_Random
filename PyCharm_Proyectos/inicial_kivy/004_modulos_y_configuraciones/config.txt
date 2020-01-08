@@ -1,0 +1,8 @@
+###############    CONFIG   ##############
+WINDOWS: C:\Users\usuario\.kivy\config.ini
+OS X: /Users/usuario/.kivy/config.ini
+LINUX: /home/usuario/.kivy/config.ini
+ANDROID: /data/data/org.kivy.launcher/files/.kivy/config.ini
+IOS: <HOME_DIRECTORY>/Documents/.kivy/config.ini>
+
+El archivo config.ini contiene configuraciones de la ejecucion de kivy actual
