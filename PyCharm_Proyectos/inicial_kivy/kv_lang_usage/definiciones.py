@@ -24,3 +24,15 @@ Estructura:
 
 
 """
+# Mas definiciones Basicas:
+"""
+1. El codigo JV puede ser abierto y ejecutado automaticamente, el archivo python buscara el archivo kivy
+    con el nombre de la clase ejecutada. Lo convertira en minuscula.
+        Los archivos kivy deben ir en minuscula:
+            Clase Python  ||  Clase Kivy
+            MyLittleApp   ||  mylittle.kv
+            Principal     ||  principal.kv
+2. El codigo KV puede tener solamente una root (raiz)
+"""
+
+

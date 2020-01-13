@@ -1,0 +1,6 @@
+<Clase>:
+    Label:
+        # self = label
+        text: str(self.opacity)
+        text: root.orientation
+        text: app.name

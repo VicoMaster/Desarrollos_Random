@@ -1,0 +1,21 @@
+# Herencia Multiple Kivy
+
+# COdigo implementado en otro archivo kv
+#<BotonA@Button>:
+#    text: "Botonazo A"
+#
+#<BotonB@Button>:
+#    opacity: 0.5
+#0
+
+#:include arq.kv
+
+<BotonC@BotonA+BotonB>:
+    text: "Botonazo A"
+
+
+BoxLayout:
+    orientation: "vertical"
+    BotonC:
+    BotonC:
+    BotonC:

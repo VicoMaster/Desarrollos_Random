@@ -1,0 +1,32 @@
+# Constante en kivy
+#:set x 100
+# Para importar package python
+#:import o os
+
+# definimos una clase que extiende de Button
+<MiBoton@Button>:
+    text: "El botonazo"
+
+
+<Telon@BoxLayout>:
+    orientation: "horizontal"
+    MiBoton:
+    MiBoton:
+    MiBoton:
+
+BoxLayout:
+    Telon:
+    Telon:
+        orientation: "vertical"
+
+# Es lo mismo que lo de arriba, pero sin definir clases
+#BoxLayout:
+#    orientation: "horizontal"
+#
+#    Button:
+#        text: o.getcwd()
+#        text: "bt1"
+#    Button:
+#        text: "bt2"
+#    Button:
+#        text: "bt3"

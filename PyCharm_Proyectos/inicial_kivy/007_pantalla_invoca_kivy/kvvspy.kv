@@ -1,0 +1,22 @@
+# definicion de clase
+#:set constante_text 'Click'
+# con valores numericos se debe parsear str(valor)
+<Telon1>
+    orientation: "vertical"
+    Button:
+        text: constante_text
+        on_press: root.on_press_bt()
+    Button:
+        text: "bt2"
+    Button:
+        text: "bt3"
+
+
+<Telon2>
+    orientation: "vertical"
+    Button:
+        text: "Click"
+        on_press: root.on_press_bt()
+
+# Definicion de instancia, cuando no se define en archivo .py
+Telon1:
