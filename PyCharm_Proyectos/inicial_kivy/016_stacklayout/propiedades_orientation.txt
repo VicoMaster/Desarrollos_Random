@@ -1,0 +1,12 @@
+************   PROPIEDADES DE ORIENTACION STACKLAYOUT   ************
+"lr-tb":                            "rl-bt":
+left-rigth top-bottom       "left-right" "bottom-top"
+
+"tb-rl":                            "bt-lr"
+top-bottom right-left       "bottom-top"  "left-right"
+
+"lr-tb":                            "rl-bt"
+left-right top-bottom        "right-left"  "bottom-top"
+
+"tb-lr":                            "bt-rl"
+top-bottom left-rigtht       "bottom-top"  "right-left"
