@@ -1,0 +1,32 @@
+#:import C kivy.utils.get_color_from_hex
+# anchor_x: 'right', 'center', 'left'
+# anchor_y: 'top', 'center', 'bottom'
+
+<VentanaInicial>:
+    anchor_x: 'center'
+    anchor_y: 'center'
+    canvas.before:
+        Color:
+            # rgba: 1, 1, 1, 1
+            rgba: C("#22FFAA")
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    AnchorLayout:
+        size_hint: .5, .5
+        anchor_y: 'center'
+        text_size: self.size
+        canvas:
+            Color:
+                rgba: 1,0,0,1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Button:
+            size_hint: .5, .5
+            text: "BOTONSITO"
+            id: boton1
+            #text_size: self.size
+            #halign: 'center'
+            #valign: 'middle'
+            #font_size: 12

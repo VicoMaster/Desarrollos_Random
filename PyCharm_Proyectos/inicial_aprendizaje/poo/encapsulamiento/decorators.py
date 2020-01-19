@@ -3,6 +3,10 @@
 * Interfaz publica de acceso
 Para evitar usar la funcion builtins propertyse usa el decorador
 variable_propiedad = property(fget=_get_var, fset=_set_var) se remplaza por lo siguiente:
+
+
+******   hasattr, setattr, getattr ******
+Las funciones anteriores sirven para saber si un atributo hace parte de la lista de nombres, modificar un atributo o obtener.
 """
 
 

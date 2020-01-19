@@ -7,6 +7,7 @@ import codecs
 
 
 class VentanaInicial(FloatLayout):
+
     def contenido(self):
         num_digitos = 6
         mihex = "#"+str(codecs.encode(os.urandom(int(num_digitos / 2)), 'hex').decode())
