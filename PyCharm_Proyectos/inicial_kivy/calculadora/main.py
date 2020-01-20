@@ -15,6 +15,8 @@ class VentanaInicial(GridLayout):
                 self.display.text = "Impossible to divide by zero..."
             except SyntaxError:
                 pass
+            except OverflowError:
+                self.display.text = "DESBORDAMIENTO"
 
     def borrar_c(self, valores):
         nuevo = valores[:len(valores)-1]
