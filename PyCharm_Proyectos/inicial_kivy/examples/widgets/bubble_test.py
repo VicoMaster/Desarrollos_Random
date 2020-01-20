@@ -1,9 +1,9 @@
-'''
+"""
 Bubble
 ======
 
 Test of the widget Bubble.
-'''
+"""
 
 from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout

@@ -1,4 +1,4 @@
-'''
+"""
 Line (SmoothLine) Experiment
 ============================
 
@@ -9,7 +9,7 @@ You can click to add new points to the segment, change the transparency
 and width of the line, or hit 'Animate' to see a set of sine and cosine
 animations. The Cap and Joint buttons don't work: SmoothLine has not
 implemented these features yet.
-'''
+"""
 
 from kivy.app import App
 from kivy.properties import OptionProperty, NumericProperty, ListProperty, \

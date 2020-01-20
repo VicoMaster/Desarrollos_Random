@@ -1,4 +1,4 @@
-'''
+"""
 Repeat Texture on Resize
 ========================
 
@@ -9,7 +9,7 @@ This example includes a label with a colored background.
 
 Note the image mtexture1.png is a white 'K' on a transparent background, which
 makes it hard to see.
-'''
+"""
 
 from kivy.app import App
 from kivy.uix.image import Image

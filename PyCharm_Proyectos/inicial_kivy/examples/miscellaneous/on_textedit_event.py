@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-'''
+"""
 on_textedit event sample.
-'''
+"""
 from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.lang import Builder
