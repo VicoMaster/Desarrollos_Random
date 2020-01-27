@@ -28,6 +28,11 @@ try:
             for linea in archivo.readlines():
                 busqueda = "showmessage"
                 busqueda_dos = "wait"
+                skip_caracter = "/"
+                pos_caracter = linea.lower().find(skip_caracter)
+                if pos_caracter != -1:
+                    archivo_legible += linea
+                    continue
                 pos = linea.lower().find(busqueda)
                 pos_wait = -1  # Solo se define para no entrar en su eliminacion
                 if contador_message:
@@ -63,5 +68,3 @@ try:
 except (FileNotFoundError, FileExistsError):
     print("OCURRIO UN ERROR INESPERADO... Asegurese de ingresar doble \\ para Rutas")
     print("Para rutas encerrar con '' y terminar con \\")
-except (OverflowError, SystemError, ValueError):
-    print("DEMASIADOS VALORES PARA ESTE SIMPLE SCRIPT... Por favor ingrese menos archivos.")
