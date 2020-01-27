@@ -18,11 +18,12 @@ try:
 
 
         for archiv in ls():
+            # Se lee el archivo
             ruta = sys.argv[1] + archiv
-
             archivo = open(ruta, 'r+', encoding='utf-8')
-
+            # Variables de inicio
             archivo_legible = ""
+            modificado = False  # Variable que controlara la escritura del archivo. No afectara la fecha
             contador_message = False
             for linea in archivo.readlines():
                 busqueda = "showmessage"
@@ -41,19 +42,26 @@ try:
                     cadena_dos = linea[pos:]
                     reformado = cadena_uno + "SET &MESSAGE" + cadena_dos + '{}run "alert.scl"\n'.format('\t' * org_pos)
                     archivo_legible += reformado
+                    modificado = True
                 elif pos_wait != -1:
                     # remplaza el Wait
                     archivo_legible += ""
                     contador_message = False
+                    modificado = True
                 else:
                     archivo_legible += linea
-            archivo.seek(0)
-            archivo.write(archivo_legible)
-            archivo.close()
+            if modificado:
+                archivo.seek(0)
+                archivo.write(archivo_legible)
+                archivo.close()
+            else:
+                archivo.close()
 
     else:
         print("PARAMETROS ACEPTADOS: 1")
         print("Solo ingrese la ruta especifica del directorio a Examinar Ejemplo: C:\\Users\\master\\Desktop")
-except (FileNotFoundError, FileExistsError, SystemError, OverflowError, ValueError):
+except (FileNotFoundError, FileExistsError):
     print("OCURRIO UN ERROR INESPERADO... Asegurese de ingresar doble \\ para Rutas")
     print("Para rutas encerrar con '' y terminar con \\")
+except (OverflowError, SystemError, ValueError):
+    print("DEMASIADOS VALORES PARA ESTE SIMPLE SCRIPT... Por favor ingrese menos archivos.")
