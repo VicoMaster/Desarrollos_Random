@@ -1,0 +1,10 @@
+DDL = Data Definition Lan
+> CREATE
+> ALTER
+> DROP
+
+DML = Data Manipulation Lang
+> INSERT
+> UPDATE
+> DELETE
+> SELECT
