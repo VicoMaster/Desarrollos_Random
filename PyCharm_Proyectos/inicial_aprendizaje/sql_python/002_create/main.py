@@ -8,4 +8,11 @@ CREATE TABLE IF NOT EXISTS tabla(
     nombre_columna1 tipo_columna
     nombre_columna2 tipo_columna
 );
+
+CREATE TABLE agenda
+(
+    nombre TEXT
+);
+
+
 """

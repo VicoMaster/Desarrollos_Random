@@ -1,0 +1,6 @@
+INSERT INTO nombre_tabla(col1, col2, col3)
+VALUES (valor1, valor2, valorN);
+
+
+INSERT INTO AGENDA(nombre)
+VALUES ("Andres")
