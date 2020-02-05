@@ -1,0 +1,15 @@
+INTEGRIDAD PREFERENCIAL
+
+Son reglas que establacen a las relaciones entre registros
+tablas y Columnas
+
+Primary Key:
+Es una Columna que almacena el identificador de los registros de la tabla
+
+
+
+CREATE TABLE AGENDA(
+    ID INT PRIMARY KEY NOT NULL
+    NOMBRE TEXT UNIQUE NOT NULL
+    EDAD INT DEFAULT 1
+);

@@ -14,5 +14,10 @@ CREATE TABLE agenda
     nombre TEXT
 );
 
+CREATE TABLE agenda
+(
+    nombre TEXT NOT NULL,
+    EDAD INT DEFAULT 1
+);
 
 """

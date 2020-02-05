@@ -1,0 +1,23 @@
+Restricciones de Valores:
+
+Es una regla de validacion de datos vinculada a
+una Columna.
+
+NOT NULL:
+
+CREATE TABLE nombre_tabla (
+    nom_col tipo NOT NULL
+);
+
+DEFAULT: Valores por defecto cuando ningun dato sea atribuido
+
+CREATE TABLE nombre_Tabla(
+    nom_col tipo DEFAULT valot_patron
+);
+
+UNIQUE: Evita que dos registros presenten un mismo valor
+
+CREATE TABLE nombre_tabla(
+    nom_col tipo UNIQUE NOT NULL -- para 2 rest
+);
+
