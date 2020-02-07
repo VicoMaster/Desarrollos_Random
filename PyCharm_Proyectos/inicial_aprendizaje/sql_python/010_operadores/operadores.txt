@@ -1,0 +1,34 @@
+OPERADORES:
+
+
+Aritmeticos:
++
+-
+*
+/
+%
+
+OPERADORES RELACIONALES
+==
+=
+IS
+IS NOT
+!=
+<>
+>
+<
+>=
+<=
+!>
+!<
+
+OPERADORES LOGICOS
+AND
+OR
+NOT
+
+SELECT (4+4)%2
+SELECT 1
+
+FALSE = 0
+TRUE = 1

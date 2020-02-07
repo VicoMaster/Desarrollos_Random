@@ -1,0 +1,9 @@
+ALTERACION DE TABLAS
+
+ALTER TABLE nombre_tabla
+RENAME TO nuevo_nombre_tabla
+
+-- PARA ADICIONAR --
+
+ALTER TABLE nombre_tabla
+ADD [COLUMN] col tpo; -- Si no se especifica tipo columna lo crea TEXT

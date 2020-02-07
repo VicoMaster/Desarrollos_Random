@@ -1,0 +1,1 @@
+SELECT col,col,col FROm tabla WHERE expression;

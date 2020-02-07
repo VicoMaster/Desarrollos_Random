@@ -1,0 +1,6 @@
+UPDATE AGENDA
+SET col1 = valor1,
+    col2 = valor2,
+    col3 = valor3,
+WHERE expresion
+LIMIT valor;
