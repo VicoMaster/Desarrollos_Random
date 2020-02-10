@@ -14,12 +14,37 @@ T = task E = Experience P = performance
 
 
 * APRENDIZAJE SUPERVISADO:
-Es el aprendizaje de la maquina mediante datos reales y correctos dados y se utiliza para 
+Es el aprendizaje de la maquina mediante datos reales y correctos dados y se utiliza para:
 
-* PROBLEMAS DE REGRESION:
+- PROBLEMAS DE REGRESION:
 Es predecir una salida de valor continuo
-* PROBLEMAS DE CLASIFICACION:
+- PROBLEMAS DE CLASIFICACION:
 Es predecir una salida de valor discreto
-* Valor discreto: Es una variable que no puede tomar algunos valores dentro de un minimo conjunto numerable,quiere decir que no acepta cualquier valor,unicamente los que pertenecen al conjunto.
-* Valor continuo "Valor real":Una variable continua toma valores a lo largo de un continuo, esto es, en todo un intervalo de valores. Un atributo esencial de una variable continua es que a diferencia de una variable discreta nunca puede ser medida con exactitud. El valor observado depende de gran medida de la presicion de los intrumentos de medicion.
+-- Valor discreto: Es una variable que no puede tomar algunos valores dentro de un minimo conjunto numerable,quiere decir que no acepta cualquier valor,unicamente los que pertenecen al conjunto.
+-- Valor continuo "Valor real":Una variable continua toma valores a lo largo de un continuo, esto es, en todo un intervalo de valores. Un atributo esencial de una variable continua es que a diferencia de una variable discreta nunca puede ser medida con exactitud. El valor observado depende de gran medida de la presicion de los intrumentos de medicion.
+
+
+EJEMPLOS:
+
+Regresión: Dada una imagen de una persona, tenemos que predecir su edad en función de la imagen dada.
+Classification: 
+Dado un paciente con un tumor, nosotros tenemos que predecir si el tumor es maligno o beningno.
+
+* Cocktail party problem algorthm:
+[W,s,v] = svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');
+
+
+* APRENDIZAJE NO - SUPERVISADO
+El aprendizaje no supervisado nos permite abordar problemas con poca o ninguna idea de cómo deberían ser nuestros resultados.
+Podemos derivar la estructura de datos donde no necesariamente conocemos el efecto de las variables.
+Con el aprendizaje no supervisado no hay retroalimentación basada en los resultados de la prediccion.
+
+Ejemplos:
+
+Clustering: tome una colección de 1,000,000 de genes diferentes, y encuentre una manera de agrupar automáticamente estos genes en grupos que de alguna manera sean similares o estén relacionados por diferentes variables, como la vida útil, la ubicación, los roles, etc.
+
+Non-clustering: el "Cocktail Party Algorithm", le permite encontrar la estructura en un entorno caótico. (es decir, identificar voces y música individuales de una malla de sonidos en un cóctel).
+
+
+
 
