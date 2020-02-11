@@ -14,6 +14,9 @@ T = task E = Experience P = performance
 
 
 * APRENDIZAJE SUPERVISADO:
+
+El set de datos utilizado en supervisado se llama Set de entrenamiento.
+
 Es el aprendizaje de la maquina mediante datos reales y correctos dados y se utiliza para:
 
 - PROBLEMAS DE REGRESION:
@@ -46,5 +49,15 @@ Clustering: tome una colección de 1,000,000 de genes diferentes, y encuentre un
 Non-clustering: el "Cocktail Party Algorithm", le permite encontrar la estructura en un entorno caótico. (es decir, identificar voces y música individuales de una malla de sonidos en un cóctel).
 
 
+>> Linear Regression with One Variable
 
+
+* ALGORITMO DE REGRESSION LINEAL
+h = hipotesis
+X -> h -> predicted y
+X= valores de entrada
+y= valores salida
+
+* Cost Function  - Funcion de coste de error cuadratico
+- problema de minimización J(Ø0, Ø1)
 
