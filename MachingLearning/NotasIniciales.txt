@@ -61,3 +61,6 @@ y= valores salida
 * Cost Function  - Funcion de coste de error cuadratico
 - problema de minimización J(Ø0, Ø1)
 
+J(θ0,θ1)=1/2m m∑i=1(y^i−yi)2=12m∑i=1m(hθ(xi)−yi)2
+
+Podemos medir la precisión de nuestra función de hipótesis utilizando una función de costo. Esto toma una diferencia promedio (en realidad, una versión más elegante de un promedio) de todos los resultados de la hipótesis con entradas de x y la salida real de y.
