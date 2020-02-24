@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = My PyCalc 
+title = PyCalculator
 
 # (str) Package name
-package.name = mypycalc
+package.name = pycalculator
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.andresrivera.mycalc
+package.domain = pycalculator
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv
+source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -28,7 +28,7 @@ source.include_exts = py,png,jpg,kv
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 1.0
+version = 1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -46,10 +46,10 @@ requirements = python3,kivy
 #garden_requirements =
 
 # (str) Presplash of the application
-presplash.filename = backgroud_cellphone.jpg
+presplash.filename = /home/vicomaster/Documentos/Repositorio/Desarrollos_Random/PyCharm_Proyectos/inicial_kivy/calculadora/backgroud_cellphone.jpg
 
 # (str) Icon of the application
-icon.filename = calcu_icon.png
+icon.filename = /home/vicomaster/Documentos/Repositorio/Desarrollos_Random/PyCharm_Proyectos/inicial_kivy/calculadora/calcu_icon.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -75,7 +75,7 @@ osx.kivy_version = 1.9.1
 #
 
 # (bool) Indicate if the application should be fullscreen or not
-fullscreen = 1
+fullscreen = 0
 
 # (string) Presplash background color (for new android toolchain)
 # Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
@@ -91,7 +91,7 @@ fullscreen = 1
 #android.api = 27
 
 # (int) Minimum API your APK will support.
-android.minapi = 19
+#android.minapi = 21
 
 # (int) Android SDK version to use
 #android.sdk = 20
@@ -219,7 +219,7 @@ android.minapi = 19
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 #
 # Python for android (p4a) specific
@@ -234,8 +234,8 @@ android.arch = armeabi-v7a
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
 #p4a.source_dir =
 
-# (str) The directory in which python-for-android should look for your own build recipes 89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon89a6a20ee8917df89cf6f0e57a942e66_icon(if any)
-#p4a.local_recipes =89a6a20ee8917df89cf6f0e57a942e66_icon
+# (str) The directory in which python-for-android should look for your own build recipes (if any)
+#p4a.local_recipes =
 
 # (str) Filename to the hook for p4a
 #p4a.hook =
