@@ -1,2 +1,0 @@
-Para simular distintos tipos de resoluciones, densidades y modelos de grafica por dispositivos se usa:
-python main.py -m screen:ipad
