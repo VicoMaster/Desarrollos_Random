@@ -1,5 +1,16 @@
 # coding: utf-8
 # Ejemplo con Manejo de Errores
+"""
+try:
+    pass
+except:
+    pass
+else:
+    pass
+finally:
+    pass
+
+"""
 def pedir_numeros():
     numero_uno = int(input("Digite el Primer Numero: "))
     numero_dos = int(input("Digite el Segundo Numero: "))

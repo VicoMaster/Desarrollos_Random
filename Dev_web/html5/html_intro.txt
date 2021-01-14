@@ -1,0 +1,31 @@
+<!-- 
+    Estructura basica de un Documento en HTML
+-->
+<!DOCTYPE html> <!-- En HTML5 un documento html define así de corto, antes tocaba poner la ruta super larga con la ruta edel xhtml-->
+<html lang="es">
+    <head> <!--Es la cabecera del documento, ira donde se especifican los archivos js, hojas de estilo, iconos, titulos, es informacion vital... y etiquetas meta-->
+        <meta charset="iso-8559-1"/>  <!-- Especifica como sera presentado el texto en pantalla, unicode, caracteres chinos etc-->
+        <meta name="description" content="Pagina de enseñanza html 5"/> <!--SE usa para describir el contenido de la pagina web ante los buscadores-->
+        <meta name="keywords" content="html5, css3, javascript, diseño web"/>
+        <title>Titulo Ejemplo</title> <!--Ayuda para que los buscadores categoricen adecuadamente nuestra pagina, indexen correctamente-->
+        <link rel="stylesheet" href="mihojadeestilos.css"/> <!--Para agregar archivos o documentos adicionales a nuestro pagina web-->
+        <!--Etiqueta rel se usa para informar que tipo de archivo se esta adicionando y hrel es para decir donde se encuentra el doc a adicionar-->
+    </head>
+    <body>
+
+    </body>
+</html>
+
+<!--
+    HTML: Estructura
+    CSS: Apariencia
+    JavaScript: Interactividad & Animación
+
+-->
+
+
+Modelo caja-contenedor
+1. Dos tipos de etiquetas en HTML
+- Etiquetss block
+- Etiquetas inline
+2. La mayoria de etiquetas de estructura son etiquetas block

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* Documento CSS */
+/**Selector de etiqueta**/
+body{
+    background-color: rgb(66, 63, 63);
+}
+
+#cabeceraweb{
+    background-color: lightgreen;
+}
+
+#barnav_principal{
+    background-color: olivedrab;
+}
+
+#barra_lateral_1{
+    background-color: rgb(55, 114, 114);
+    float: left;
+    height: inherit;
+}
+
+#contenido_principal_1{
+    background-color: rgb(55, 66, 34);
+    margin-left: 210px;
+    padding-left: 10px;
+}
+
+#foot_principal_1{
+    background-color: orchid;
+    clear: both;
+}
+
+li{
+    background-color: rebeccapurple;
+    display: inline;
+}

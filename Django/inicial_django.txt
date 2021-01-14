@@ -1,4 +1,24 @@
 Iniciando con Django
 
+* FrameWork de Python, publicado en 2005
+* Diseño Rapido
+* Filosofia DRY (Don´t repeat yourself)
+* Basado en el patrón MVC.
 
+Model - Template - View
 
+* Modelo: Manipula los datos de la aplicación
+-- es el que interactua con la base de datos
+* Template: Decide como se van a mostrar los datos en el navegador
+-- es todo el html
+* View: Decide cuáles datos va a mostrar el template.
+-- Son archivos en python donde se programa la logica de negocio.
+
+Ciclo del MTV
+
+Navegador: Genera petición a una URL
+URL: La URL ya tiene una vista predefinida a la cual va hacer la petición
+View: La vista son archivos python la cual contiene modelos establecidos a los cuales va hacer la petición.
+Modelos: Van a interactuar con la base de datos la cual va a retornar al modelo la petición y luego el modelo retorna a la vista los datos.
+View: Con los datos retornados por los modelos va a mandar estos al template.
+Template: va a renderizar los datos en el navegador.

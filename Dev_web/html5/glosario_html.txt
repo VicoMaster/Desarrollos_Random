@@ -1,0 +1,23 @@
+* <head>: Es la cabecera del documento, ira donde se especifican los archivos js, hojas de estilo, iconos, titulos, es informacion vital... y etiquetas meta
+* <meta/>: Información que leen los buscadores, que sirve para posicionar nuestra pagina web.
+* <ul><ul/>: Es para crear listas desordenadas
+* <li></li>: Elemento de una lista
+* <ol></ol>: Lista ordenada
+* <nav></nav>: Barra de navegacion
+* <aside></aside>: Barra lateral
+* <section></section>: Contenido principal
+* <footer></footer>: informacion institucional
+* <article></article>: para agrupar contenido similar, sirve para informar a los buscadores
+* <hgroup></hgroup>: Se usa para agrupar elementos H del mismo tema.
+* <figure></figure>: Insertar contenido, imagenes que estan relacionados con el contenido de la pagina, pero son contenidos independientes, pueden ser videos etc.. media
+* <mark></mark>: Marcar un texto, sin importancia ni enfasis. (De acuerdo a circunstancias del momento). Se utiliza para resaltar un texto dependiendo de la acciond el usuario.
+* <em></em>: Para indicar enfasis. Sustituye a la etiqueta <i></i> pone el texto en cursiva.
+* <strong></strong>: Marcar texto importante, mismo uso que <b> pero esta ultima se encuentra en desuso.
+* <small></small>: Presentar textos legales, pone la letra mas pequeña
+* <cite></cite>: Citar libros, canciones, peliculas, trabajos propios etc..
+* <address></address>: Para informacion de contacto. Debe ir dentro del footer
+* <time></time>: Representa fechas y horas
+  <time datetime="2020-05-23" pubdate>
+* 
+* 
+* 

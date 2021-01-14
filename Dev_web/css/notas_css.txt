@@ -1,0 +1,12 @@
+¿Donde colocar el codigo CSS?:
+1. En archivo independiente.
+- Se modifica de una manera rapida y sencilla todas las paginas web del sitio (A eleccion)
+2. En cabecera de documento HTML
+- Dentro de la etiqueta head para modificar toda la apariencia del documento html actual
+3. Dentro de etiqueta
+- Estilo inline. Casos muy concreto ~ No recomentado
+
+SELECTORES:
+- etiqueta
+- id
+- clase

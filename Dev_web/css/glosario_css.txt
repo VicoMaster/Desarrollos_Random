@@ -1,0 +1,6 @@
+margin_top: Establecer el espacio que hay desde el borde de la cajaa, a lo que hay en la parte superior
+margin_left: Establecer el espacio que hay desde el borde de la cajaa, a lo que hay en la parte izquierda
+margin_rigth: Establecer el espacio que hay desde el borde de la cajaa, a lo que hay en la parte derecha
+margin_bottom: Establecer el espacio que hay desde el borde de la cajaa, a lo que hay en la parte inferior
+
+padding: separación del contenido de la caja hasta el borde del contenedor.
